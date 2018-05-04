@@ -11,7 +11,7 @@
       <div class="dn-l">This should be here on small and medium screens.</div>-->
 
       <!-- TOC -->
-      <div class="toc fixed-l pa4-l tl-l vh-100-l">
+      <div class="toc fixed-l pa4-l tl-l vh-100-l w-third-l">
         <div class="mb2 title3">
           Selected Projects
         </div>
