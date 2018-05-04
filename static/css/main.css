@@ -29,6 +29,11 @@ body {
     text-transform: uppercase;
 }
 
+.title4 {
+    color: #111111;
+    font-weight: 700;
+}
+
 .toc {
     top: 0;
     left: 0;

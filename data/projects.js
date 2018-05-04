@@ -4,7 +4,21 @@ const DATA = {
             occupation: "Owner &bull; Old West Site Usability",
             year: 2018,
             name: "VfL-Wehbach.de",
-            roles: ["Design", "Consulting"]
+            roles: ["Design", "Consulting"],
+            process: {
+                step1: {
+                    title: "Step 1",
+                    description: "Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos."
+                },
+                step2: {
+                    title: "Step 2",
+                    description: "Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos."
+                },
+                step3: {
+                    title: "Step 3",
+                    description: "Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos."
+                }
+            }
         },
         "gesturewiz": {
             occupation: "Research Fellow &bull; University of Michigan",

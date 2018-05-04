@@ -46,13 +46,24 @@
       <!-- THE PROJECTS -->
       <div>
         <div v-for="(project, id) in projects" :key="id">
-          <div>
-            <a v-bind:id="id" v-bind:name="id"></a>
-            <div class="mb4 title2">
-              <span v-html="project.name"></span>
+          <div class="cf mw-90">
+            <div class="fl pa3 w-80">
+              <a v-bind:id="id" v-bind:name="id"></a>
+              <div class="mb4 title2">
+                <span v-html="project.name"></span>
+              </div>
+              <div class="dib measure-wide tl">
+                Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos.
+              </div>
             </div>
-            <div class="dib measure-wide tl">
-              Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos.
+            <div class="fl w-20 pa3">
+              <div class="mb4 title4">
+                Process
+              </div>
+              <div v-for="(step, stepId) in project.process" :key="stepId">
+                {{ step.title }}<br />
+                <i class="fas fa-caret-down pa2"></i>
+              </div>
             </div>
           </div>
           <div class="gray ma5 tc">***</div>
