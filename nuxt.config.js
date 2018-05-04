@@ -11,9 +11,13 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.0.10/css/all.css' },
       { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css' },
       { rel: 'stylesheet', href: '/css/main.css' }
-    ]
+    ],
+    script: [
+      // { src: 'https://code.jquery.com/jquery-3.3.1.min.js' }
+    ],
   },
   /*
   ** Customize the progress bar color
