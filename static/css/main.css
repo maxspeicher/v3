@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700");
 
 a {
     color: #111111;
@@ -10,6 +10,13 @@ body {
     color: #111111;
     font-family: "Roboto Mono", monospace;
     font-weight: 300;
+}
+
+.back-to-top {
+    box-shadow: 2px 2px #ffffff;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
 }
 
 .title1 {
@@ -24,13 +31,13 @@ body {
 }
 
 .title3 {
-    color: #111111;
+    /* color: #111111; */
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .title4 {
-    color: #111111;
+    /* color: #111111; */
     font-weight: 700;
 }
 
