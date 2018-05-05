@@ -3,9 +3,10 @@
     <div class="fl-l vh-100-l w-third-l"></div>
     <div class="fl-l w-two-thirds-l">
       <div class="title1">
-        Portfolio of Maximilian Speicher
+        Portfolio of Maximilian Speicher<br />
+        ================================
       </div>
-      <div class="dn-l gray ma5 tc">***</div>
+      <separator class="dn-l"></separator>
       
       <!--<div class="dn db-l">This should be here only on large screens.</div>
       <div class="dn-l">This should be here on small and medium screens.</div>-->
@@ -13,7 +14,8 @@
       <!-- TOC -->
       <div class="toc fixed-l pa4-l tl-l vh-100-l w-third-l">
         <div class="mb2 title3">
-          Selected Projects
+          Selected Projects<br />
+          =================
         </div>
         <span class="mr2 pointer" v-bind:class="{ gray: !displayByOccupation }" v-on:click="displayByOccupation = true">by occupation</span>
         <i class="fas pointer" v-bind:class="[{ 'fa-toggle-off': displayByOccupation }, { 'fa-toggle-on': !displayByOccupation }]" v-on:click="displayByOccupation = !displayByOccupation"></i>
@@ -41,7 +43,7 @@
           </div>
         </div>
       </div>
-      <div class="gray ma5 tc">***</div>
+      <separator></separator>
 
       <!-- THE PROJECTS -->
       <div>
@@ -50,23 +52,29 @@
             <div class="fl pa3 w-80">
               <a v-bind:id="id" v-bind:name="id"></a>
               <div class="mb4 title2">
-                <span v-html="project.name"></span>
+                <span v-html="project.name"></span><br />
+                <span v-for="n in project.name.length" :key="n">-</span>
               </div>
               <div class="dib measure-wide tl">
-                Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos.
+                <div class="mb4" v-for="(step, index) in project.process" :key="index">
+                  <a v-bind:id="id + '--' + step.id" v-bind:name="id + '--' + step.id"></a>
+                  {{ step.title }}<br /><br />
+                  {{ step.description }}
+                </div>
               </div>
             </div>
             <div class="fl w-20 pa3">
               <div class="mb4 title4">
-                Process
+                Process<br />
+                -------
               </div>
-              <div v-for="(step, stepId) in project.process" :key="stepId">
-                {{ step.title }}<br />
-                <i class="fas fa-caret-down pa2"></i>
+              <div v-for="(step, index) in project.process" :key="index">
+                <a v-bind:href="'#' + id + '--' + step.id">{{ step.title }}</a>
+                <div class="ma2" v-if="index < project.process.length-1">↓</div>
               </div>
             </div>
           </div>
-          <div class="gray ma5 tc">***</div>
+          <separator></separator>
         </div>
       </div>
     </div>
@@ -75,11 +83,15 @@
 
 <script>
 import DATA from "~/data/projects.js"
+import Separator from '~/components/Separator.vue'
 
 export default {
   asyncData(context) {
     // called every time before loading the component
     return DATA;
+  },
+  components: {
+    Separator
   },
   data: () => ({
     displayByOccupation: true
