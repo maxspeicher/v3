@@ -39,3 +39,11 @@ body {
     left: 0;
     overflow: auto;
 }
+
+.x::before {
+    content: "[ ]"
+}
+
+.x-active::before {
+    content: "[x]"
+}

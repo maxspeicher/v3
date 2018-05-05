@@ -1,6 +1,7 @@
 const DATA = {
-    projects: {
-        "vfl-wehbach": {
+    projects: [
+        {
+            id: "vfl-wehbach",
             occupation: "Owner",
             place: "Old West Site Usability",
             year: 2018,
@@ -24,81 +25,92 @@ const DATA = {
                 }
             ]
         },
-        "gesturewiz": {
+        {
+            id: "gesturewiz",
             occupation: "Research Fellow",
             place: "University of Michigan",
             year: 2017,
             name: "GestureWiz",
             roles: ["Project Lead", "Design", "Code"]
         },
-        "xd-ar": {
+        {
+            id: "xd-ar",
             occupation: "Research Fellow",
             place: "University of Michigan",
             year: 2017,
             name: "XD-AR",
             roles: ["Project Lead", "Design"]
         },
-        "floorplan": {
+        {
+            id: "floorplan",
             occupation: "VP of Data Analytics",
             place: "bitstars GmbH",
             year: 2016,
             name: "Floor Plan Feature for HoloBuilder.com",
             roles: ["Feature Ownership", "Interaction Design"]
         },
-        "sio": {
+        {
+            id: "sio",
             occupation: "Industrial Ph.D. Student",
             place: "Unister GmbH",
             year: 2016,
             name: "Search Interaction Optimization",
             roles: ["Project Lead", "Design", "Code"]
         },
-        "sos": {
+        {
+            id: "sos",
             occupation: "Industrial Ph.D. Student",
             place: "Unister GmbH",
             year: 2015,
             name: "SERP Optimization Suite",
             roles: ["Project Lead", "Design", "Code"]
         },
-        "w3touch": {
+        {
+            id: "w3touch",
             occupation: "Master's Student",
             place: "ETH Zürich",
             year: 2012,
             name: "W3Touch",
             roles: ["Design", "Code"]
         },
-        "crowdadapt": {
+        {
+            id: "crowdadapt",
             occupation: "Research Assistant",
             place: "ETH Zürich",
             year: 2011,
             name: "CrowdAdapt",
             roles: ["Design", "Code"]
         }
-    },
+    ],
     byOccupation: {},
-    byYear: {}
+    byOccupationKeys: [],
+    byYear: {},
+    byYearKeys: []
 };
 
 const SEPARATOR = "@";
 
-for (let id in DATA.projects) {
-    const p = DATA.projects[id];
+for (let i=0; i<DATA.projects.length; ++i) {
+    const p = DATA.projects[i];
     const occupation = p.occupation + ` ${SEPARATOR} ` + p.place;
 
     if (!DATA.byOccupation[occupation]) {
         DATA.byOccupation[occupation] = [];
+        DATA.byOccupationKeys.push(occupation);
     }
 
     DATA.byOccupation[occupation].push({
-        id: id,
+        id: p.id,
         name: p.name
     });
 
     if (!DATA.byYear[p.year]) {
         DATA.byYear[p.year] = [];
+        DATA.byYearKeys.push(p.year);
     }
 
     DATA.byYear[p.year].push({
-        id: id,
+        id: p.id,
         name: p.name
     });
 }
