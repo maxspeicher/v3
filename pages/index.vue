@@ -6,10 +6,17 @@
         Portfolio of Maximilian Speicher<br />
         ================================
       </div>
-      <separator class="dn-l"></separator>
+
+      <div class="mt5">
+        <div class="dib measure-wide tl">
+          Blah, blah, little intro text about me ...
+        </div>
+      </div>
+      <separator></separator>
 
       <!-- TOC -->
       <div class="toc fixed-l pa4-l tl-l vh-100-l w-third-l">
+        <a id="menu" name="menu"></a>
         <div class="mb2 title3">
           Selected Projects<br />
           =================
@@ -19,29 +26,25 @@
         <span class="pointer x" v-bind:class="[{ 'x-active': !displayByOccupation }, { 'o-50': displayByOccupation }]" v-on:click="displayByOccupation = !displayByOccupation"></span>
         <span class="ml2 pointer" v-bind:class="{ 'o-50': displayByOccupation }" v-on:click="displayByOccupation = false">by year</span>
         <div class="mt4" v-bind:class="{ dn: !displayByOccupation }">
-          <div v-for="(occupation, i) in byOccupationKeys" :key="i">
+          <div v-for="(occupation, i) in byOccupationKeys" :key="i" v-bind:class="{ mb4: i < byOccupationKeys.length-1 }">
             <div class="o-50 mb2">
               <span v-html="occupation"></span>
             </div>
-            <div class="mb4">
-              <div class="mb2" v-for="project in byOccupation[occupation]" :key="project.id">
-                <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
-              </div>
+            <div class="mb2" v-for="(project, i) in byOccupation[occupation]" :key="i">
+              <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
             </div>
           </div>
         </div>
         <div class="mt4" v-bind:class="{ dn: displayByOccupation }">
-          <div v-for="(year, i) in byYearKeys" :key="i">
+          <div v-for="(year, i) in byYearKeys" :key="i" v-bind:class="{ mb4: i < byYearKeys.length-1 }">
             <div class="o-50 mb2">{{ year }}</div>
-            <div class="mb4">
-              <div class="mb2" v-for="project in byYear[year]" :key="project.id">
-                <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
-              </div>
+            <div class="mb2" v-for="(project, i) in byYear[year]" :key="i">
+              <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
             </div>
           </div>
         </div>
       </div>
-      <separator></separator>
+      <separator class="dn-l"></separator>
 
       <!-- METHODS/FILTER -->
       <div>
@@ -90,7 +93,10 @@
       </div>
       Made with &lt;3 in Ann Arbor, MI. Powered by <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> and <a href="http://tachyons.io/" target="_blank">Tachyons</a>.
     </div>
-    <a href="#top" class="back-to-top ba fw7 no-underline pa1 pointer">
+    <a href="#top" class="back-to-top ba dn db-l fw7 no-underline pa1 pointer">
+      ^
+    </a>
+    <a href="#menu" class="back-to-top ba dn-l fw7 no-underline pa1 pointer">
       ^
     </a>
   </div>

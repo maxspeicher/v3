@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700");
 
 a {
-    color: #ffffff;
+    color: ivory;
 }
 
 body {
     background-color: navy;
-    color: #ffffff;
+    color: ivory;
+}
+
+.title1, .title2 {
+    /* color: deeppink; */
+    color: gold;
 }
