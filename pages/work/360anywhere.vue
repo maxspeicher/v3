@@ -1,6 +1,8 @@
 <template>
   <div class="template-container pa5 tc">
-    <div class="bg-image"></div>
+    <div class="bg-image">
+      <div class="gradient"></div>
+    </div>
     <div class="on-top">
       <my-header></my-header>
       <div class="dib f1 fw6 measure-wide tl">
@@ -43,6 +45,15 @@ export default {
     top: 0;
     width: 100vw;
     z-index: 1;
+  }
+
+  .gradient {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.0) 30%, rgb(17, 17, 17, 1.0));
+    bottom: 0px;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    width: 100%;
   }
 
   .on-top {
