@@ -4,14 +4,19 @@ const DATA = {
             id: "vfl-wehbach",
             occupation: "Owner",
             place: "Old West Site Usability",
-            year: 2018,
             name: "VfL-Wehbach.de",
+            year: 2018,
+            timeFrame: "since April 2018",
+            teamSize: 1,
             roles: ["Design", "Consulting"],
+            summary: ``,
             process: [
                 {
                     id: "step1",
-                    title: "Step 1",
-                    description: "Ducimus quasi eos quo vel tenetur. Quia et sequi velit sunt autem facilis. Doloribus non corporis modi sunt exercitationem sint. Aliquid sit quo illo qui et fugit. Delectus cum itaque eos. Autem aut natus nihil eos."
+                    title: "Requirements Elicitation",
+                    description: `
+                        Blah blah blah
+                    `
                 },
                 {
                     id: "step2",

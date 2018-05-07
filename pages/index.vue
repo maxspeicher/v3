@@ -1,110 +1,41 @@
 <template>
-  <div class="tc">
-    <div class="fl-l vh-100-l w-third-l"></div>
-    <div class="fl-l mb4 w-two-thirds-l">
-      <div class="title1">
-        Portfolio of Maximilian Speicher<br />
-        ================================
-      </div>
-
-      <div class="mt5">
-        <div class="dib measure-wide tl">
-          Blah, blah, little intro text about me ...
-        </div>
-      </div>
-      <separator></separator>
-
-      <!-- TOC -->
-      <div class="toc fixed-l pa4-l tl-l vh-100-l w-third-l">
-        <a id="menu" name="menu"></a>
-        <div class="mb2 title3">
-          Selected Projects<br />
-          =================
-        </div>
-        <span class="mr2 pointer" v-bind:class="{ 'o-50': !displayByOccupation }" v-on:click="displayByOccupation = true">by occupation</span>
-        <span class="pointer x" v-bind:class="[{ 'x-active': displayByOccupation }, { 'o-50': !displayByOccupation }]" v-on:click="displayByOccupation = !displayByOccupation"></span>&nbsp;
-        <span class="pointer x" v-bind:class="[{ 'x-active': !displayByOccupation }, { 'o-50': displayByOccupation }]" v-on:click="displayByOccupation = !displayByOccupation"></span>
-        <span class="ml2 pointer" v-bind:class="{ 'o-50': displayByOccupation }" v-on:click="displayByOccupation = false">by year</span>
-        <div class="mt4" v-bind:class="{ dn: !displayByOccupation }">
-          <div v-for="(occupation, i) in byOccupationKeys" :key="i" v-bind:class="{ mb4: i < byOccupationKeys.length-1 }">
-            <div class="o-50 mb2">
-              <span v-html="occupation"></span>
-            </div>
-            <div class="mb2" v-for="(project, i) in byOccupation[occupation]" :key="i">
-              <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
-            </div>
-          </div>
-        </div>
-        <div class="mt4" v-bind:class="{ dn: displayByOccupation }">
-          <div v-for="(year, i) in byYearKeys" :key="i" v-bind:class="{ mb4: i < byYearKeys.length-1 }">
-            <div class="o-50 mb2">{{ year }}</div>
-            <div class="mb2" v-for="(project, i) in byYear[year]" :key="i">
-              <a v-bind:href="'#' + project.id"><span v-html="project.name"></span></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <separator class="dn-l"></separator>
-
-      <!-- METHODS/FILTER -->
-      <div>
-        <div class="mb2 title3">
-          Methods<br />
-          =======
-        </div>
-        <span v-for="(m, i) in methods" :key="i">
-          {{ m }}
-          <span v-if="i < methods.length-1">|</span>
+  <div class="template-container pa5 tc">
+    <my-header></my-header>
+    <div class="dib f1 fw6 measure-wide tl">
+      I'm a traditionally trained computer scientist who does design &amp; research.
+      <div class="f3 fw4 mt4">
+        I make natural user interfaces &amp; augmented reality.
+        <a href="#" v-if="!isMoreDisplayed" v-on:click="displayMore">More ...</a>
+        <span v-if="isMoreDisplayed">
+          Currently, I'm working on new physical &amp; digital methods for designers to create &amp; test
+          better AR/VR experiences.
+          At the University of Michigan School of Information, we are reinventing interaction design itself.
         </span>
       </div>
-      <separator></separator>
-
-      <!-- THE PROJECTS -->
-      <div>
-        <div v-for="(project, i) in projects" :key="i">
-          <div class="cf mw-90">
-            <div class="fl pa3 w-75-ns">
-              <a v-bind:id="project.id" v-bind:name="project.id"></a>
-              <div class="mb4 title2">
-                <span v-html="project.name"></span><br />
-                <span v-for="n in project.name.length" :key="n">-</span>
-              </div>
-              <div class="dib measure-wide tl">
-                <div class="mb4" v-for="(step, i) in project.process" :key="i">
-                  <a v-bind:id="project.id + '--' + step.id" v-bind:name="project.id + '--' + step.id"></a>
-                  <div class="fw5 tc">{{ step.title }}</div><br /><br />
-                  <div v-html="step.description"></div>
-                </div>
-              </div>
-            </div>
-            <div class="dn db-ns fl w-25 pa3">
-              <div class="mb4 title4">
-                Process<br />
-                -------
-              </div>
-              <div v-for="(step, i) in project.process" :key="i">
-                <a v-bind:href="'#' + project.id + '--' + step.id">{{ step.title }}</a>
-                <div class="ma2" v-if="i < project.process.length-1">↓</div>
-              </div>
-            </div>
-          </div>
-          <separator></separator>
+    </div>
+    <div class="mt6">
+      <a id="work" name="work"></a>
+      <div class="f2 fw6 mb5 tl">
+        Selected Work.
+      </div>
+      <div class="cf">
+        <div class="box f2 fl fw6 pa4 w-third" style="background-image: url(/img/360anywhere.jpg)">
+          <div class="box-padding"></div>
+          <nuxt-link to="/work/360anywhere" class="box-inner color-ivory">
+            <span class="center">360 Anywhere</span>
+          </nuxt-link>
         </div>
       </div>
-      Made with &lt;3 in Ann Arbor, MI. Powered by <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> and <a href="http://tachyons.io/" target="_blank">Tachyons</a>.
     </div>
-    <a href="#top" class="back-to-top ba dn db-l fw7 no-underline pa1 pointer">
-      ^
-    </a>
-    <a href="#menu" class="back-to-top ba dn-l fw7 no-underline pa1 pointer">
-      ^
-    </a>
+    <my-footer></my-footer>
   </div>
 </template>
 
 <script>
 import DATA from "~/data/projects.js"
-import Separator from "~/components/Separator.vue"
+
+import MyHeader from "~/components/Header.vue"
+import MyFooter from "~/components/Footer.vue"
 
 export default {
   asyncData(context) {
@@ -112,15 +43,17 @@ export default {
     return DATA;
   },
   components: {
-    Separator
+    MyHeader,
+    MyFooter
   },
   data: () => ({
-    displayByOccupation: true,
-    methods: ["Field Studies", "In-house Studies", "Remote Asynchronous Studies"]
+    isMoreDisplayed: false
   }),
+  layout: "default",
   methods: {
-    test() {
-      
+    displayMore(e) {
+      e.preventDefault();
+      this.isMoreDisplayed = true;
     }
   }
 }
