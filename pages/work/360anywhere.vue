@@ -1,14 +1,16 @@
 <template>
-  <div class="template-container pa5 tc">
+  <div class="template-container">
     <div class="bg-image">
       <div class="gradient"></div>
     </div>
-    <div class="on-top">
-      <my-header></my-header>
-      <div class="dib f1 fw6 measure-wide tl">
-        360Anywhere ...
+    <div class="template-container-inner pa3 pa5-ns tc">
+      <div class="on-top">
+        <my-header></my-header>
+        <div class="dib f1 fw6 measure-wide tl">
+          360Anywhere ...
+        </div>
+        <my-footer></my-footer>
       </div>
-      <my-footer></my-footer>
     </div>
   </div>
 </template>
@@ -37,6 +39,7 @@ export default {
   
   .bg-image {
     background-image: url(/img/360anywhere.jpg);
+    background-position: center;
     background-size: cover;
     height: 100vh;
     left: 0;

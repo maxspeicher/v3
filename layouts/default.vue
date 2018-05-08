@@ -37,17 +37,15 @@
     }
 
     .box {
+        background-position: center;
         background-size: cover;
-        border: 1px $foreground solid;
-        box-shadow: 2px 2px $foreground;
         position: relative;
+        transition: transform .2s;
     }
 
     .box:hover {
-        box-shadow: 4px 4px $foreground;
-        left: -2px;
-        position: relative;
-        top: -2px;
+        transform: scale(1.05);
+        // transform: perspective(500px) translateZ(.5em);
     }
 
     .box-padding {
@@ -82,16 +80,21 @@
         color: ivory;
     }
 
-    .main-container {
-        max-width: 1080px;
-    }
-
     .menu a:hover {
         text-decoration: underline;
     }
 
-    .template-container {
+    .separator-thin {
+        background-color: $background;
+        height: 1px;
+        margin: .5em auto;
+        max-width: 75%;
+        width: 100px;
+    }
+
+    .template-container-inner {
+        margin: 0 auto;
+        max-width: 1080px;
         min-height: 100vh;
-        position: relative;
     }
 </style>
