@@ -28,6 +28,19 @@
         text-decoration: none;
     }
 
+    q {
+        font: inherit;
+        quotes: "“" "”" "‘" "’";
+    }
+
+    q:before {
+        content: open-quote;
+    }
+
+    q:after {
+        content: close-quote;
+    }
+
     .abril {
         font-family: "Abril Fatface", serif;
     }
@@ -90,6 +103,10 @@
         margin: .5em auto;
         max-width: 75%;
         width: 100px;
+    }
+
+    .shadow {
+        box-shadow: 0 0 5px #000000;
     }
 
     .template-container-inner {

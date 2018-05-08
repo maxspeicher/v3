@@ -14,14 +14,14 @@
           </span>
         </div>
       </div>
-      <div class="mt6">
+      <div class="mt5 mt6-ns">
         <a id="work" name="work"></a>
-        <div class="f3 f2-ns fw6 mb5 tl">
+        <div class="f3 f2-ns fw6 mb4 mb5-ns tl">
           Selected Work.
         </div>
         <div class="cf">
           <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box f2 fw6 w-100" style="background-image: url(/img/360anywhere.jpg)">
+            <div class="box f2 fw6 w-100" style="background-image: url(/img/360anywhere/360anywhere.jpg)">
               <div class="box-padding"></div>
               <nuxt-link to="/work/360anywhere" class="box-inner color-ivory">
                 <div class="center w-100">
@@ -46,13 +46,16 @@
           </div>
         </div>
       </div>
-      <div class="mt6">
+      <div class="mt5 mt6-ns">
         <a id="work" name="work"></a>
-        <div class="f3 f2-ns fw6 mb5 tl">
+        <div class="f3 f2-ns fw6 mb4 mb5-ns tl">
           Some Publications.
         </div>
         <div class="">
           
+        </div>
+        <div class="tl">
+          <a href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more ...</a>
         </div>
       </div>
       <my-footer></my-footer>
