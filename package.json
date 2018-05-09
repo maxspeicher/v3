@@ -13,7 +13,7 @@
     "precommit": "npm run lint",
     "build:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "cross-env DEPLOY_ENV=GH_PAGES nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
