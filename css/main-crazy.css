@@ -1,0 +1,17 @@
+a {
+    color: ivory;
+}
+
+body {
+    background-color: navy;
+    color: ivory;
+}
+
+.back-to-top {
+    box-shadow: 2px 2px ivory;
+}
+
+.title1, .title2 {
+    /* color: deeppink; */
+    color: gold;
+}
