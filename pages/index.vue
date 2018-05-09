@@ -44,6 +44,16 @@
               </nuxt-link>
             </div>
           </div>
+          <div class="fl pa2 w-100 w-50-m w-third-l">
+            <div class="box f2 fw6 w-100">
+              <div class="box-padding"></div>
+              <a href="https://2008.maxspeicher.com" class="box-inner mid-gray" style="background-color: #eee">
+                <div class="center w-100">
+                  Read my blog
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="mt5 mt6-ns">

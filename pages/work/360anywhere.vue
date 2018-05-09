@@ -9,11 +9,54 @@
         <div class="dib f3 f1-ns fw6 measure-wide tl w-100">
           360Anywhere
           <div class="f4 f3-ns fw4 mt4">
-            We wanted to merge the physical and digital worlds by providing a remote collaboration solution
-            that combines 360° video and augmented reality.
+            In this research project, we wanted to merge the physical and digital worlds by providing a remote
+            collaboration tool that combines 360° video and augmented reality.
             Imagine a meeting room that is live-streamed to remote meeting participants in 360° and whatever
             they draw into the live stream appears in the actual room.<br /><br />
             A full research paper about 360Anywhere is currently under review.
+          </div>
+        </div>
+        <div class="cf mt5 mt6-ns mw-90 tl">
+          <div class="fl pa3 w-100 w-50-ns">
+            <div class="ba b--white pa3">
+              <div class="fw7 pb3 ttu">Setting</div>
+              <div class="pb3">Team of <span class="fw7">5</span></div>
+              <div class="pb5">Jun&ndash;Sep 2017</div>
+              <div class="fw7 pb3 ttu">What I did</div>
+              <div class="pb3">Project Lead</div>
+              <div class="pb3">User Research</div>
+              <div class="pb3">System Design + Architecture</div>
+            </div>
+          </div>
+          <div class="fl pa3 w-100 w-50-ns">
+            <div class="ba b--white pa3">
+              <div class="fw7 pb3 ttu">How the process turned out</div>
+              <div class="fancy-list">
+                <div class="fw7 pb2">Discovery</div>
+                <div class="small-caps">
+                  literature review<br />
+                  competitive analysis
+                </div>
+              </div>
+              <div class="fancy-list">
+                <div class="fw7 pb2">Concept</div>
+                <div class="small-caps">
+                  sketches<br />
+                  storyboards<br />
+                  mind maps<br />
+                  affinity diagrams<br />
+                  wireframes<br />
+                  initial prototype
+                </div>
+              </div>
+              <div class="fancy-list">
+                <div class="fw7 pb2">Iterative Implementation (3&times;)</div>
+                <div class="small-caps">
+                  high-fidelity prototype<br />
+                  user study
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="cf mt5 mt6-ns tl">
@@ -22,7 +65,7 @@
           </div>
           <div class="fl w-100 w-two-thirds-m w-75-l">
             Both 360° videos and augmented reality are really powerful for remote collaboration.
-            Yet, their full potential had not been made use of.
+            Yet, their full potential had not been made use of so far.
             Through a <span class="fw4 small-caps">literature review</span> and
             <span class="fw4 small-caps">competitive analysis</span> (including Skype on HoloLens, 
             Sketchboard.io, and Chalk by Vuforia), we found a number of unresolved challenges, the most
@@ -66,9 +109,9 @@
             Building and Testing 360Anywhere.
           </div>
           <div class="fl w-100 w-two-thirds-m w-75-l">
-            Starting with a high-fidelity prototype based on A-Frame, 360Anywhere was built in three iterations,
-            each consisting of a <span class="fw4 small-caps">design sprint</span> (adjusted to our needs) with
-            a <span class="fw4 small-caps">user study</span> at the end.
+            Starting with an initial prototype based on A-Frame, 360Anywhere was built in three
+            <span class="fw4 small-caps">iterations</span>, each with a
+            <span class="fw4 small-caps">user study</span> at the end.
             Based on these tests as well as the challenges and requirements we had identified earlier in the
             process, we ultimately created a system that (among other things) provides the following components
             that can be activated based on users' needs:
@@ -81,7 +124,7 @@
             <span class="fw4">projective augmented reality</span>.
             That is, whatever is drawn into such a projective region in the 360° live stream appears at the
             exact position in the room and can be saved for later sessions.
-            In this way, we can create interactive whiteboards onto with both local and remote meeting
+            In this way, we can create interactive whiteboards onto which both local and remote meeting
             participants can draw.<br /><br />
             The <span class="fw4 small-caps">user studies</span> were carried out with one group of three
             and two groups of four and were intended to identify usability issues and explore more potential
@@ -91,6 +134,12 @@
             The studies suggest that our system can solve the existing challenges and be applied to a wide
             range of scenarios.<br /><br />
             Overall, setting up 360Anywhere requires only a laptop, a 360° camera, and (optionally) a projector.
+          </div>
+        </div>
+        <div class="cf f4 f3-ns fw7 mt5 mt6-ns tl">
+          <div class="fl tl w-50">&nbsp;</div>
+          <div class="fl tr w-50">
+            <nuxt-link to="/work/gesturewiz" class="no-underline">GestureWiz <i class="fas fa-angle-right ml2"></i></nuxt-link>
           </div>
         </div>
         <my-footer></my-footer>

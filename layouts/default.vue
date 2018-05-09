@@ -50,6 +50,7 @@
     }
 
     .box {
+        background-color: #fff;
         background-position: center;
         background-size: cover;
         position: relative;
@@ -91,6 +92,29 @@
 
     .color-ivory {
         color: ivory;
+    }
+
+    .fancy-list {
+        border-left: 1px ivory solid;
+        margin-left: .5em;
+        padding: 0 0 2em 2em;
+        position: relative;
+    }
+
+    .fancy-list::before {
+        background-color: ivory;
+        border: 1px ivory solid;
+        border-radius: 100%;
+        content: "";
+        display: block;
+        height: 1em;
+        left: calc(-.5em - 1px);
+        position: absolute;
+        width: 1em;
+    }
+
+    .fancy-list:last-child {
+        border: 0;
     }
 
     .menu a:hover {
