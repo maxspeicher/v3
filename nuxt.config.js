@@ -1,9 +1,15 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/portfolio/'
+  }
+} : {};
+
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'portfolio',
+    title: 'Maximilian Speicher\'s Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -26,6 +32,7 @@ module.exports = {
   /*
   ** Build configuration
   */
+  ...routerBase,
   build: {
     /*
     ** Run ESLint on save
