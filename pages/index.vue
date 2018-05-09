@@ -21,7 +21,7 @@
         </div>
         <div class="cf">
           <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box f2 fw6 w-100" style="background-image: url(/img/360anywhere/360anywhere.jpg)">
+            <div class="box box-360anywhere f2 fw6 w-100">
               <div class="box-padding"></div>
               <nuxt-link to="/work/360anywhere" class="box-inner color-ivory">
                 <div class="center w-100">
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box f2 fw6 w-100" style="background-image: url(/img/gesturewiz.jpg)">
+            <div class="box box-gesturewiz f2 fw6 w-100">
               <div class="box-padding"></div>
               <nuxt-link to="/work/gesturewiz" class="box-inner color-ivory">
                 <div class="center w-100">
@@ -100,3 +100,13 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.box-360anywhere {
+  background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
+}
+
+.box-gesturewiz {
+  background-image: url(~/assets/img/gesturewiz.jpg);
+}
+</style>

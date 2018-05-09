@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="mt5 mt6-ns">
-          <img src="/img/360anywhere/360anywhere-mockups.png" />
+          <img src="~/assets/img/360anywhere/360anywhere-mockups.png" />
         </div>
         <div class="cf mt5 mt6-ns tl">
           <div class="f3 fl fw4 mb3 mb0-ns pr3-ns w-100 w-third-m w-25-l">
@@ -98,10 +98,10 @@
         </div>
         <div class="cf mt5 mt6-ns">
           <div class="fl pa2 w-100 w-50-ns">
-            <img class="shadow" src="/img/360anywhere/360anywhere-detail-2.jpg" />
+            <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-2.jpg" />
           </div>
           <div class="fl pa2 w-100 w-50-ns">
-            <img class="shadow" src="/img/360anywhere/360anywhere-detail-3.jpg" />
+            <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-3.jpg" />
           </div>
         </div>
         <div class="cf mt5 mt6-ns tl">
@@ -171,7 +171,7 @@ export default {
   }
   
   .bg-image {
-    background-image: url(/img/360anywhere/360anywhere.jpg);
+    background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;

@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:200,300,400,600');
+    
     $background:             ivory;
     $background-transparent: rgba(17, 17, 17, .33);
     $foreground:             #111111;
