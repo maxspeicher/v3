@@ -6,8 +6,8 @@
           </div>
       </div>
       <div class="menu fl fw4 mt2 mt0-ns tl tr-ns w-100 w-50-ns">
-          <nuxt-link to="/about" class="mr4">About</nuxt-link>
-          <nuxt-link to="/#work">Work</nuxt-link>
+        <nuxt-link to="/about" class="mr4">About</nuxt-link>
+        <nuxt-link to="/#work">Work</nuxt-link>
       </div>
   </header>
 </template>
