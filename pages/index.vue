@@ -107,6 +107,6 @@ export default {
 }
 
 .box-gesturewiz {
-  background-image: url(~/assets/img/gesturewiz.jpg);
+  background-image: url(~/assets/img/gesturewiz/gesturewiz.jpg);
 }
 </style>
