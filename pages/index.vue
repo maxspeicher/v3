@@ -45,6 +45,18 @@
             </div>
           </div>
           <div class="fl pa2 w-100 w-50-m w-third-l">
+            <div class="box box-holobuilder f2 fw6 w-100">
+              <div class="box-padding"></div>
+              <nuxt-link to="/work/holobuilder" class="box-inner color-ivory">
+                <div class="center w-100">
+                  Holo&shy;Builder
+                  <div class="separator-thin"></div>
+                  <span class="f3 fw2">bitstars GmbH</span>
+                </div>
+              </nuxt-link>
+            </div>
+          </div>
+          <div class="fl pa2 w-100 w-50-m w-third-l">
             <div class="box f2 fw6 w-100">
               <div class="box-padding"></div>
               <a href="https://2008.maxspeicher.com" class="box-inner mid-gray" style="background-color: #eee">
@@ -108,5 +120,9 @@ export default {
 
 .box-gesturewiz {
   background-image: url(~/assets/img/gesturewiz/gesturewiz.jpg);
+}
+
+.box-holobuilder {
+  background-image: url(~/assets/img/holobuilder/holobuilder.jpg);
 }
 </style>

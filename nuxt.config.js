@@ -22,7 +22,8 @@ module.exports = {
       { rel: 'stylesheet', href: '/css/main.css' },
     ],
     script: [
-      // { src: 'https://code.jquery.com/jquery-3.3.1.min.js' }
+      { src: 'https://code.jquery.com/jquery-3.3.1.min.js' },
+      { src: '/js/nerd-mode.js' }
     ],
   },
   /*

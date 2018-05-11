@@ -119,7 +119,7 @@ export default {
 
 <style scoped>
   .template-container {
-    background-color: #111111;
+    background-color: rgba(44, 62, 80, 1.0);
     color: ivory;
   }
 
@@ -141,7 +141,7 @@ export default {
   }
 
   .gradient {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.0) 30%, rgb(17, 17, 17, 1.0));
+    background-image: linear-gradient(rgba(44, 62, 80, 0.0) 30%, rgb(44, 62, 80, 1.0));
     bottom: 0px;
     height: 100%;
     left: 0px;

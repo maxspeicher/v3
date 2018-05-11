@@ -7,71 +7,68 @@
       <div class="on-top">
         <my-header></my-header>
         <project-summary title="GestureWiz">
+          GestureWiz is a rapid prototyping environment for designers to create and test arbitrary, 
+          multi-modal gestures without the need for programming or training data.
           <br /><br />
-          A full research paper about GestureWiz has been published at the 2018 ACM CHI Conference.
+          A <a href="~/assets/pdf/gesturewiz.pdf">full research paper</a> about GestureWiz has been published
+          at the 2018 ACM CHI Conference.
         </project-summary>
         <process v-bind:data="process"></process>  
-        <project-section-text title="Identifying Challenges.">
-          Both 360° videos and augmented reality are really powerful for remote collaboration.
-          Yet, their full potential had not been made use of so far.
-          Through a <span class="fw4 small-caps">literature review</span> and
-          <span class="fw4 small-caps">competitive analysis</span> (including Skype on HoloLens, 
-          Sketchboard.io, and Chalk by Vuforia), we found a number of unresolved challenges, the most
-          important of which were:
-          <ul>
-            <li>360° video and AR had not been combined before.</li>
-            <li>Users are often not aware of where others are looking in a 360° video.</li>
-            <li>Users are often looking into different directions.</li>
-          </ul>
+        <project-section-text title="Human-Powered Gestures.">
+          GestureWiz lets designers create and test arbitrary gestures without training data or the need to
+          write code, simply by using a webcam or Microsoft Kinect.
+          In step 1, the designer records and saves a set of template gestures.
+          Then, they record a gesture that should be recognized, which is automatically posted to
+          <a href="https://www.mturk.com/">Amazon Mechanical Turk</a>.
+          The recruited crowd workers compare the gesture to the template set and select the correct
+          match&mdash;simple as that.
+          We discovered the need for such a system through a <span class="fw4 small-caps">literature review</span>
+          and <span class="fw4 small-caps">competitive analysis</span> of solutions like $1, JackKnife, and
+          Zensors, none of which provides designers with the benefits of GestureWiz.
         </project-section-text>
         <project-section>
-          <img src="~/assets/img/360anywhere/360anywhere-mockups.png" />
+          <img src="~/assets/img/gesturewiz/gesturewiz-mockup-1.png" />
         </project-section>
-        <project-section-text title="Finding a Solution.">
-          Making use of standard methods&mdash;<span class="fw4 small-caps">sketching</span>,
-          <span class="fw4 small-caps">storyboards</span>, <span class="fw4 small-caps">mind maps</span>, and
-          <span class="fw4 small-caps">affinity diagrams</span>&mdash;we brainstormed a range of scenarios
-          and solutions and also created initial <span class="fw4 small-caps">wireframes</span>.
-          We soon noticed that there is no one-size-fits-all solution for all remote collaboration scenarios.
-          Therefore, we decided for a component-based solution that lets users design just the system they
-          need.
-          A second important requirement was as little hardware as possible to address a wide range of
-          potential users.
+        <project-section-text title="An Interface for Crowd Workers.">
+          We created <span class="fw4 small-caps">sketches</span>,
+          <span class="fw4 small-caps">storyboards</span>, and 
+          <span class="fw4 small-caps">wireframes</span> of potential user interfaces for the crowd workers on
+          Amazon Mechanical Turk as well as the designers creating the gestures.
+          It turned out that the former was the trickier part and the solution we came up with was an interface
+          that showed the whole template set on the right and a live streamed gesture to be recognized on the
+          left side.
+          To evaluate our designs, we created a first <span class="fw4 small-caps">high-fidelity prototype</span>
+          and conducted <span class="fw4 small-caps">experiments</span> with remote crowd workers and three
+          different gesture sets.
+          We moreover carried out an in-lab <span class="fw4 small-caps">user study</span> with 11 interaction
+          designers, who we asked to create and test a gesture set for a slideshow application.
         </project-section-text>
-        <project-section class="cf">
-          <div class="fl pa2 w-100 w-50-ns">
-            <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-2.jpg" />
+        <project-section class="dt">
+          <div class="dtc pa2 w-100 v-mid w-50-ns">
+            <img class="shadow v-mid" src="~/assets/img/gesturewiz/gesturewiz-sketch.jpg" />
           </div>
-          <div class="fl pa2 w-100 w-50-ns">
-            <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-3.jpg" />
+          <div class="dtc pa2 w-100 v-mid w-50-ns">
+            <img class="v-mid" src="~/assets/img/gesturewiz/gesturewiz-mockup-2.png" />
           </div>
         </project-section>
-        <project-section-text title="Building and Testing 360Anywhere.">
-          Starting with an initial prototype based on A-Frame, 360Anywhere was built in three
-          <span class="fw4 small-caps">iterations</span>, each with a
-          <span class="fw4 small-caps">user study</span> at the end.
-          Based on these tests as well as the challenges and requirements we had identified earlier in the
-          process, we ultimately created a system that (among other things) provides the following components
-          that can be activated based on users' needs:
-          <ul>
-            <li>Gaze cones to indicate where other users are looking in the 360° live stream,</li>
-            <li>a function to <q>take over</q> the stream and force everyone to look in the same direction, and</li>
-            <li>the possibility to add text, images, videos, and drawings to the 360° live stream.</li>
-          </ul>
-          However, most importantly, when a projector is available, the system can be set up to support
-          <span class="fw4">projective augmented reality</span>.
-          That is, whatever is drawn into such a projective region in the 360° live stream appears at the
-          exact position in the room and can be saved for later sessions.
-          In this way, we can create interactive whiteboards onto which both local and remote meeting
-          participants can draw.<br /><br />
-          The <span class="fw4 small-caps">user studies</span> were carried out with one group of three
-          and two groups of four and were intended to identify usability issues and explore more potential
-          scenarios.
-          Our participants were presented with three tasks to be solved in a group and afterwards filled out
-          a post-study questionnaire and gave open-ended feedback.
-          The studies suggest that our system can solve the existing challenges and be applied to a wide
-          range of scenarios.<br /><br />
-          Overall, setting up 360Anywhere requires only a laptop, a 360° camera, and (optionally) a projector.
+        <project-section-text title="Improving GestureWiz.">
+          Based on the first round of studies, we concluded the need for a different worker UI that shows only
+          one gesture template at a time rather than the whole gesture set.
+          The latter was confusing for crows workers since templates are animated GIFs and resulted in
+          suboptimal recognition performance.
+          Besides, we decided to added a gamification component to the system to further improve recognition
+          quality.
+          In this way, crowd workers can earn a bonus by being especially quick and accurate.
+          We validated these new design decision in a second round of crowd worker
+          <span class="fw4 small-caps">experiments</span> with an improved
+          <span class="fw4 small-caps">prototype</span>.
+          Additionally, we conducted a second <span class="fw4 small-caps">user study</span> with another 12
+          interaction designers that were again asked to design gestures for a slideshow application, this time
+          in a co-creation setting.<br /><br />
+          The main findings from the study were that GestureWiz is quick and easy to use and well suited for
+          conflict resolution of ambiguous gestures.
+          The interaction designers we tested with appreciated the support GestureWiz can provide for the
+          prototyping process of gesture-based apps.
         </project-section-text>
         <prev-next prevTitle="360Anywhere" prevLink="360anywhere" nextTitle="HoloBuilder" nextLink="holobuilder"></prev-next>
         <my-footer></my-footer>
@@ -103,11 +100,12 @@ export default {
     process: {
       teamSize: 3,
       timeframe: "Mar&ndash;May 2017",
-      roles: ["Project Lead", "User Research", "System Design + Architecture"],
+      roles: ["Project Lead", "User Research", "System Design", "Code"],
       process: {
         "Discovery": ["literature review", "competitive analysis"],
-        "Concept": ["sketches", "storyboards", "mind maps", "affinity diagrams", "wireframes", "initial prototype"],
-        "Iterative Implementation (3&times;)": ["high-fidelity prototype", "user study"]
+        "Concept": ["sketches", "storyboards", "wireframes"],
+        "Implementation": ["1st high-fidelity prototype", "crowd worker experiments", "user study"],
+        "Validation": ["2nd high-fidelity prototype", "crowd worker experiments", "user study"]
       }
     }
   })
@@ -116,7 +114,7 @@ export default {
 
 <style scoped>
   .template-container {
-    background-color: rgba(41, 128, 185, 1.0);
+    background-color: rgba(22, 160, 133, 1.0);
     color: ivory;
   }
 
@@ -138,7 +136,7 @@ export default {
   }
 
   .gradient {
-    background-image: linear-gradient(rgba(41, 128, 185, 0.0) 30%, rgb(41, 128, 185, 1.0));
+    background-image: linear-gradient(rgba(22, 160, 133, 0.0) 30%, rgb(22, 160, 133, 1.0));
     bottom: 0px;
     height: 100%;
     left: 0px;
