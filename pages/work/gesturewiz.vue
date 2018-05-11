@@ -43,12 +43,12 @@
           We moreover carried out an in-lab <span class="fw4 small-caps">user study</span> with 11 interaction
           designers, who we asked to create and test a gesture set for a slideshow application.
         </project-section-text>
-        <project-section class="dt">
-          <div class="dtc pa2 w-100 v-mid w-50-ns">
-            <img class="shadow v-mid" src="~/assets/img/gesturewiz/gesturewiz-sketch.jpg" />
+        <project-section class="cf dt">
+          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+            <img class="shadow" src="~/assets/img/gesturewiz/gesturewiz-sketch.jpg" />
           </div>
-          <div class="dtc pa2 w-100 v-mid w-50-ns">
-            <img class="v-mid" src="~/assets/img/gesturewiz/gesturewiz-mockup-2.png" />
+          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+            <img src="~/assets/img/gesturewiz/gesturewiz-mockup-2.png" />
           </div>
         </project-section>
         <project-section-text title="Improving GestureWiz.">
