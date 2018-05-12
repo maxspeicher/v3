@@ -110,7 +110,7 @@ export default {
       process: {
         "Discovery": ["literature review", "competitive analysis"],
         "Concept": ["sketches", "storyboards", "mind maps", "affinity diagrams", "wireframes", "initial prototype"],
-        "Iterative Implementation (3&times;)": ["high-fidelity prototype", "user study"]
+        "Iterative Implementation (3&times;)": ["high-fidelity prototype", "user study", "kanban"]
       }
     }
   })

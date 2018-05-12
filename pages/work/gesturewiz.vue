@@ -104,8 +104,7 @@ export default {
       process: {
         "Discovery": ["literature review", "competitive analysis"],
         "Concept": ["sketches", "storyboards", "wireframes"],
-        "Implementation": ["1st high-fidelity prototype", "crowd worker experiments", "user study"],
-        "Validation": ["2nd high-fidelity prototype", "crowd worker experiments", "user study"]
+        "Iterative Implementation (2&times;)": ["high-fidelity prototype", "crowd worker experiments", "user study", "kanban"]
       }
     }
   })

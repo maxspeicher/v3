@@ -20,44 +20,12 @@
           Selected Work.
         </div>
         <div class="cf">
+          <box id="360anywhere" title="360&shy;Any&shy;where" workplace="U of Michigan"></box>
+          <box id="gesturewiz" title="Gesture&shy;Wiz" workplace="U of Michigan"></box>
+          <box id="holobuilder" title="Holo&shy;Builder" workplace="bitstars GmbH"></box>
+          <box id="sio" title="Search<br />Inter&shy;action<br />Optimi&shy;zation" workplace="Unister GmbH"></box>
           <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box box-360anywhere f2 fw6 w-100">
-              <div class="box-padding"></div>
-              <nuxt-link to="/work/360anywhere" class="box-inner color-ivory">
-                <div class="center w-100">
-                  360&shy;Any&shy;where
-                  <div class="separator-thin"></div>
-                  <span class="f3 fw2">U of Michigan</span>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box box-gesturewiz f2 fw6 w-100">
-              <div class="box-padding"></div>
-              <nuxt-link to="/work/gesturewiz" class="box-inner color-ivory">
-                <div class="center w-100">
-                  Gesture&shy;Wiz
-                  <div class="separator-thin"></div>
-                  <span class="f3 fw2">U of Michigan</span>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box box-holobuilder f2 fw6 w-100">
-              <div class="box-padding"></div>
-              <nuxt-link to="/work/holobuilder" class="box-inner color-ivory">
-                <div class="center w-100">
-                  Holo&shy;Builder
-                  <div class="separator-thin"></div>
-                  <span class="f3 fw2">bitstars GmbH</span>
-                </div>
-              </nuxt-link>
-            </div>
-          </div>
-          <div class="fl pa2 w-100 w-50-m w-third-l">
-            <div class="box f2 fw6 w-100">
+            <div class="box f2 f3-m fw6 w-100">
               <div class="box-padding"></div>
               <a href="https://2008.maxspeicher.com" class="box-inner mid-gray" style="background-color: #eee">
                 <div class="center w-100">
@@ -90,6 +58,7 @@ import DATA from "~/data/projects.js"
 
 import MyHeader from "~/components/Header.vue"
 import MyFooter from "~/components/Footer.vue"
+import Box from "~/components/Box.vue"
 
 export default {
   asyncData(context) {
@@ -98,7 +67,8 @@ export default {
   },
   components: {
     MyHeader,
-    MyFooter
+    MyFooter,
+    Box
   },
   data: () => ({
     isMoreDisplayed: false
@@ -113,7 +83,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .box-360anywhere {
   background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
 }
@@ -124,5 +94,9 @@ export default {
 
 .box-holobuilder {
   background-image: url(~/assets/img/holobuilder/holobuilder.jpg);
+}
+
+.box-sio {
+  background-image: url(~/assets/img/sio/sio.jpg);
 }
 </style>
