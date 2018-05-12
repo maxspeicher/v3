@@ -65,21 +65,27 @@
           </div>
         </project-section>
         <project-section-text title="Company-wide Data Analytics.">
-          Based on the first round of studies, we concluded the need for a different worker UI that shows only
-          one gesture template at a time rather than the whole gesture set.
-          The latter was confusing for crows workers since templates are animated GIFs and resulted in
-          suboptimal recognition performance.
-          Besides, we decided to added a gamification component to the system to further improve recognition
-          quality.
-          In this way, crowd workers can earn a bonus by being especially quick and accurate.
-          We validated these new design decision in a second round of crowd worker
-          <span class="fw4 small-caps">experiments</span> with an improved prototype.
-          Additionally, we conducted a second study with 12 interaction designers that were again asked to design
-          gestures for a slideshow application, this time in a co-creation setting.<br /><br />
-          The main findings from the study were that GestureWiz is quick and easy to use and well suited for
-          conflict resolution of ambiguous gestures.
-          The interaction designers we tested with appreciated the support GestureWiz can provide for the
-          prototyping process of gesture-based apps.
+          Besides the above, my primary responsibility at HoloBuilder was to guarantee the continuous delivery
+          of meaningful data and insights to C-level management and other internal stakeholders.
+          For this I acted as the internal product manager (officially VP of Customer &amp; Data Analytics
+          &amp; Optimization) responsible for the design and development of a company-wide data analytics
+          pipeline.
+          In a discovery phase, I first identified my customers within the company&mdash;the CEO, the VP of
+          Product, Marketing, Customer Support, and Sales&mdash;and conducted
+          <span class="fw4 small-caps">interviews</span> to determine which insights they required.
+          In parallel, I researched which data was already available and to be included in the infrastructure.
+          Afterwards, I designed the data analytics pipeline, which was iteratively revised depending on
+          stakeholders' changing requirements.
+          I led a cross-functional team of 4 people that helped with the implementation (embedded into the
+          company's <span class="fw4 small-caps">scrum</span> process) and continuous delivery of insights.
+          On a weekly basis, together with the marketing manager, I presented core insights to C-level
+          management and provided recommendations for action based on these.
+          In particular, the data provided by the pipeline was used for iterative improvements of the web
+          platform based on <span class="fw4 small-caps">lean ux</span> principles.<br /><br />
+
+          As is natural in startup environments, I also had a number of other responsibilities, such as leading
+          a task force for writing a patent and developing the first version of the HoloBuilder brand book, which
+          defined the company's branding and CI.
         </project-section-text>
         <prev-next prevTitle="GestureWiz" prevLink="gesturewiz" nextTitle="Search Interaction Optimization" nextLink="sio"></prev-next>
         <my-footer></my-footer>
@@ -111,12 +117,11 @@ export default {
     process: {
       teamSize: "roughly 20",
       timeframe: "Mar 2015&ndash;Feb 2017",
-      roles: ["VP of Customer &amp; Data Analytics &amp; Optimization", "Strategy", "User Research", "Interaction Design", "Product Management"],
+      roles: ["VP of Customer &amp; Data Analytics &amp; Optimization", "Strategy", "User Research", "Interaction Design", "Product Management", "Branding &amp; CI"],
       process: {
         "Discovery": ["field research", "interviews", "meetups", "personas", "customer journeys"],
-        "Floor Plan Feature": ["sketches", "storyboards", "mockups", "mvp", "lean ux"],
-        "Data Analytics": ["laber"],
-        "Other Stuff": ["blah"]
+        "Floor Plan Feature": ["sketches", "storyboards", "mockups", "mvp", "scrum", "lean ux"],
+        "Data Analytics": ["interviews", "scrum", "lean ux"]
       }
     }
   })

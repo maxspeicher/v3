@@ -2,10 +2,10 @@
   <div class="template-container">
     <div class="template-container-inner pa3 pa5-ns tc">
       <my-header></my-header>
-      <div class="dib f3 f1-ns fw6 measure-wide tl">
-        I'm a researcher, designer, &amp; computer scientist (in that order).
+      <div class="dib f3 f1-ns fw6 lh-title measure-wide tl">
+        I'm a researcher, designer, &amp; computer scientist
         <div class="f4 f3-ns fw4 mt4">
-          I make natural user interfaces &amp; augmented reality.
+          who does augmented reality, interaction design, &amp; usability.
           <a href="#" v-if="!isMoreDisplayed" v-on:click="displayMore">More ...</a>
           <span v-if="isMoreDisplayed">
             Currently, I'm working on new physical &amp; digital methods for designers to create &amp; test

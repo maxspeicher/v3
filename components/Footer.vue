@@ -6,7 +6,7 @@
         <a class="dim" href="https://www.researchgate.net/profile/Maximilian_Speicher"><i class="fab fa-researchgate fa-2x mh2"></i></a>
         <a class="dim" href="https://www.linkedin.com/in/maximilianspeicher/"><i class="fab fa-linkedin-in fa-2x mh2"></i></a>
         <a class="dim" href="https://github.com/maxspeicher/"><i class="fab fa-github fa-2x mh2"></i></a>
-        <a class="dim" href="#" v-on:click="strikeMeDownWithAllYourAnger"><i class="fab fa-sith fa-2x mh2"></i></a>
+        <a class="dim" href="#" v-on:click="strikeMeDownWithAllYourHatred"><i class="fab fa-sith fa-2x mh2"></i></a>
         <a class="dim" href="https://medium.com/@maxspeicher"><i class="fab fa-medium-m fa-2x mh2"></i></a>
       </div>
   </footer>
@@ -15,7 +15,7 @@
 <script>
 export default {
   methods: {
-    strikeMeDownWithAllYourAnger(e) {
+    strikeMeDownWithAllYourHatred(e) {
       e.preventDefault();
       window.toggleNerdMode();
     }
