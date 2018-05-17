@@ -29,7 +29,7 @@
           particularly useful to real estate agents, while the CEO (in San Francisco) attracted the interest of
           the construction industry.
           In the following, the relevant personas were reduced to two&mdash;the construction user and the real
-          estate user.
+          estate user, for which we designed different landing pages.
         </project-section-text>
         <project-section>
           <img src="~/assets/img/holobuilder/holobuilder-mockup-1.png" />
@@ -41,10 +41,10 @@
           The goal was to provide functionality for uploading and displaying floor plans on which the location
           of the different 360° photos in a virtual tour could be marked (think Google Maps for construction
           sites).<br /><br />
-          After eliciting requirements in intial interviews (e.g., the possibility to upload both images and 
-          PDFs), in coordination with the responsible graphic designer and software engineer, I created a variety
-          of potential solutions in the form of <span class="fw4 small-caps">sketches</span> and
-          <span class="fw4 small-caps">storyboards</span>.
+          After eliciting initial requirements in intial <span class="fw4 small-caps">interviews</span> (e.g.,
+          the possibility to upload both images and PDFs), in coordination with the responsible graphic designer
+          and software engineer, I created a variety of potential solutions in the form of
+          <span class="fw4 small-caps">sketches</span> and <span class="fw4 small-caps">storyboards</span>.
           In the following, we selected the four best ideas and I created medium-fidelity
           <span class="fw4 small-caps">mockups</span> that were presented to the CEO and stakeholders.
           With the gathered feedback, I revised the mockups in a second iteration, based on which a decision was
@@ -72,7 +72,7 @@
           pipeline.
           In a discovery phase, I first identified my customers within the company&mdash;the CEO, the VP of
           Product, Marketing, Customer Support, and Sales&mdash;and conducted
-          <span class="fw4 small-caps">interviews</span> to determine which insights they required.
+          <span class="fw4 small-caps">interviews</span> to determine initial requirements.
           In parallel, I researched which data was already available and to be included in the infrastructure.
           Afterwards, I designed the data analytics pipeline, which was iteratively revised depending on
           stakeholders' changing requirements.
@@ -120,7 +120,7 @@ export default {
       roles: ["VP of Customer &amp; Data Analytics &amp; Optimization", "Strategy", "User Research", "Interaction Design", "Product Management", "Branding &amp; CI"],
       process: {
         "Discovery": ["field research", "interviews", "meetups", "personas", "customer journeys"],
-        "Floor Plan Feature": ["sketches", "storyboards", "mockups", "mvp", "scrum", "lean ux"],
+        "Floor Plan Feature": ["interviews", "sketches", "storyboards", "mockups", "mvp", "scrum", "lean ux"],
         "Data Analytics": ["interviews", "scrum", "lean ux"]
       }
     }
