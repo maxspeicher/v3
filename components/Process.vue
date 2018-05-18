@@ -15,7 +15,7 @@
         <div class="fancy-list" v-for="(entries, step) in data.process" :key="step">
             <div class="fw7 pb2" v-html="step"></div>
             <div class="small-caps">
-                <div v-for="e in entries" :key="e">{{ e }}</div>
+                <div v-for="e in entries" :key="e" v-html="e"></div>
             </div>
         </div>
     </div>

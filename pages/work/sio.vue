@@ -7,8 +7,8 @@
       <div class="on-top">
         <my-header></my-header>
         <project-summary title="Search Interaction Optimization">
-          I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH, in cooperation with
-          Chemnitz University of Technology.
+          I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH, who were
+          developing BlueKiwi, a semantic search engine, at that time.
           The goal of my project was to develop a new methodology for more automatic usability evaluation
           and optimization of search engines that is still effective.<br /><br />
 
@@ -17,25 +17,68 @@
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Finding a Ph.D. Project.">
-          <span class="fw4 small-caps">Lean UX</span>
+          My first task after joining Unister was to find a project I could write my Ph.D. thesis about and
+          pitch it internally as well as to Chemnitz University if Technology and the SAB
+          (Sächsische AufbauBank), who granted my scholarship.
+          I started with a <span class="fw4 small-caps">literature review</span> and
+          <span class="fw4 small-caps">competitive analysis</span>.
+          After that, because of my interest in HCI, I spent some time doing
+          <span class="fw4 small-caps">field research</span> at various teams within Unister&mdash;front-end,
+          UI design, usability testing, and data analytics&mdash;where I
+          <span class="fw4 small-caps">interviewed</span> people and discovered that traditional usability
+          evaluation through user studies was virtually absent.
+          Instead, optimization was mostly based on split testing and conversions such as the number of
+          clicked ads.
+          Clearly, there was the need for a new approach that would combine split testing with an effective
+          metric for usability.
+          I concluded this phase by synthesizing two <span class="fw4 small-caps">personas</span> (Finn, the
+          searcher and Rey, the developer) and four <span class="fw4 small-caps">scenarios</span> from my
+          findings, which would form the basis for my Ph.D. thesis.
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/interview-setup.jpg" />
         </project-section>
         <project-section-text title="Predicting the Relevance of Search Results from User Interactions.">
-          
+          In search engines, relevance (or informativeness) is a crucial usability factor.
+          I <span class="fw4 small-caps">designed and developed</span> TMR, a pipeline that utilized a variety
+          of user interactions (e.g., cursor speed and the length of the cursor trail) determine the relevance
+          of search results.
+          I was allowed to collect more than 30 GB of interaction data on two travel-booking websites, which
+          were used to train machine-learning models used for relevance prediction.
+          In comparison to a state-of-the-art solution used in industry, TMR performed considerably better for
+          all datasets in a <span class="fw4 small-caps">large-scale analysis</span>.
+          In another iteration, TMR was extended with streaming capabilities and incremental learning
+          and predictions were ultimately incorporated into BlueKiwi.
         </project-section-text>
         <project-section>
           <img src="~/assets/img/sio/sio-mockup-1.png" />
         </project-section>
         <project-section-text title="Usability-based Split Testing: A New Methodology.">
-          
+          Next, I applied the insights gained from relevance prediction to usability in general.
+          For this, I first had to develop a new usability questionnaire with items (informativeness,
+          understandability, readability, etc.) that are suitable for correlation with user interactions.
+          Therefore, I conducted a review of existing best practices and guidelines as well as
+          <span class="fw4 small-caps">interviews</span> with nine usability professionals.
+          Then, I designed and developed WaPPU, a new A/B testing tool based on a usability score rather than
+          clicks on ads.
+          WaPPU collects interaction data on two versions of the same website, trains machine-learning models,
+          predicts usability as a single score as well as the items from my new questionnaire and then
+          determines the better interface.
+          In a <span class="fw4 small-caps">user study</span> with more than 80 participants that compared
+          BlueKiwi's results page with a deliberately worse version of it, WaPPU could correctly identify even
+          subtle differences in usability.
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/SERP-comparison.jpg" />
         </project-section>
         <project-section-text title="Optimizing BlueKiwi.">
-          
+          Based on a <span class="fw4 small-caps">competitive analysis</span> of existing search engines and two
+          rounds of <span class="fw4 small-caps">expert inspections</span>, WaPPU was then extended with a
+          catalog of based practices to form S.O.S., a system that automatically proposes usability
+          optimizations based on the usability measurements, such as <q>Your site is not well readable, you
+          should consider changing your font size</q>.
+          Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
+          results page and informed a redesign that proved to yield significantly better usability.
         </project-section-text>
         <prev-next prevTitle="HoloBuilder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
         <my-footer></my-footer>
@@ -67,13 +110,13 @@ export default {
     process: {
       teamSize: "roughly 30",
       timeframe: "Jun 2012&ndash;Dec 2014",
-      roles: ["Industrial Ph.D. Student", "User Research", "Project Management"],
+      roles: ["Industrial Ph.D. Student", "User Research", "System Design + Architecture", "Project Management", "Code"],
       process: {
-        "Discovery": ["field research", "interviews", "meetups", "personas", "customer journeys"],
-        "Concept": ["personas", "scenarios"],
-        "Relevance Prediction": ["sketches", "storyboards", "mockups", "mvp", "scrum", "lean ux"],
-        "Usability Evaluation": ["interviews", "scrum", "lean ux"],
-        "Usability Optimization": []
+        "Discovery": ["literature review", "competitive analysis", "field research", "interviews"],
+        "Synthesis": ["personas", "scenarios"],
+        "Relevance Prediction": ["iterative implementation (2&times;)", "large-scale data analysis (2&times;)"],
+        "Usability Evaluation": ["expert interviews", "user study", "a/b testing"],
+        "Usability Optimization": ["competitive analysis", "expert inspections (2&times;)", "user study"]
       }
     }
   })
