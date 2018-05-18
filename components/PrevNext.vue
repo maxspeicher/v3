@@ -1,11 +1,11 @@
 <template>
-  <div class="dt f4 f3-ns fw7 mt5 mt6-ns tl w-100">
+  <div class="prev-next dt f4 f3-ns fw7 mt5 mt6-ns tl w-100">
     <div class="dtc tl v-btm w-50">
-        <nuxt-link v-if="prevTitle && prevLink" v-bind:to="'/work/' + prevLink" class="no-underline"><i class="fas fa-angle-left mr2"></i> {{ prevTitle }}</nuxt-link>
+        <nuxt-link v-if="prevTitle && prevLink" v-bind:to="'/work/' + prevLink"><i class="fas fa-angle-left mr2"></i> {{ prevTitle }}</nuxt-link>
         <span v-else>&nbsp;</span>
     </div>
     <div class="dtc tr v-btm w-50">
-        <nuxt-link v-if="nextTitle && nextLink" v-bind:to="'/work/' + nextLink" class="no-underline">{{ nextTitle }} <i class="fas fa-angle-right ml2"></i></nuxt-link>
+        <nuxt-link v-if="nextTitle && nextLink" v-bind:to="'/work/' + nextLink">{{ nextTitle }} <i class="fas fa-angle-right ml2"></i></nuxt-link>
     </div>
   </div>
 </template>

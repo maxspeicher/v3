@@ -119,32 +119,14 @@ export default {
 
   .template-container >>> a {
     color: ivory;
+    text-decoration: none;
   }
   
   .bg-image {
     background-image: url(~/assets/img/gesturewiz/gesturewiz.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    left: 0;
-    opacity: .5;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
   }
 
   .gradient {
     background-image: linear-gradient(rgba(22, 160, 133, 0.0) 30%, rgb(22, 160, 133, 1.0));
-    bottom: 0px;
-    height: 100%;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-  }
-
-  .on-top {
-    position: relative;
-    z-index: 2;
   }
 </style>

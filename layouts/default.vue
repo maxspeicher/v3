@@ -23,10 +23,18 @@
     }
 
     a {
+        border-bottom: 1px currentColor solid;
         color: $foreground;
+        text-decoration: none;
     }
 
-    header a, .box a {
+    header a, .box a, .prev-next a, .social-media a {
+        border: 0;
+        text-decoration: none;
+    }
+
+    .menu a:hover {
+        border-bottom: 1px currentColor solid;
         text-decoration: none;
     }
 
@@ -139,5 +147,32 @@
         margin: 0 auto;
         max-width: 1080px;
         min-height: 100vh;
+    }
+
+    /*** Project Template Specific ***/
+
+    .bg-image {
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        left: 0;
+        opacity: .5;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .gradient {
+        bottom: 0px;
+        height: 100%;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+    }
+
+    .on-top {
+        position: relative;
+        z-index: 2;
     }
 </style>

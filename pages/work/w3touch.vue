@@ -125,7 +125,7 @@ export default {
 
 <style scoped>
   .template-container {
-    background-color: rgba(142, 68, 173, 1.0);
+    background-color: rgba(192, 57, 43, 1.0);
     color: ivory;
   }
 
@@ -135,10 +135,10 @@ export default {
   }
   
   .bg-image {
-    background-image: url(~/assets/img/sio/sio.jpg);
+    background-image: url(~/assets/img/w3touch/w3touch.jpg);
   }
 
   .gradient {
-    background-image: linear-gradient(rgba(142, 68, 173, 0.0) 30%, rgb(142, 68, 173, 1.0));
+    background-image: linear-gradient(rgba(192, 57, 43, 0.0) 30%, rgb(192, 57, 43, 1.0));
   }
 </style>

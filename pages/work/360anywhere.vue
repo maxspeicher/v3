@@ -11,7 +11,8 @@
           collaboration tool that combines 360° video and augmented reality.
           Imagine a meeting room that is live-streamed to remote meeting participants in 360° and whatever
           they draw into the live stream appears in the actual room.<br /><br />
-          A full research paper about 360Anywhere is currently under review.
+          A full research paper about 360Anywhere has been accepted at
+          <a href="http://eics.acm.org/2018/">EICS 2018</a>.
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Identifying Challenges.">
@@ -125,32 +126,14 @@ export default {
 
   .template-container >>> a {
     color: ivory;
+    text-decoration: none;
   }
   
   .bg-image {
     background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    left: 0;
-    opacity: .5;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
   }
 
   .gradient {
     background-image: linear-gradient(rgba(44, 62, 80, 0.0) 30%, rgb(44, 62, 80, 1.0));
-    bottom: 0px;
-    height: 100%;
-    left: 0px;
-    position: absolute;
-    width: 100%;
-  }
-
-  .on-top {
-    position: relative;
-    z-index: 2;
   }
 </style>
