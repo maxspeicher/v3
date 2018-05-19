@@ -25,7 +25,8 @@ module.exports = {
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js' },
       { src: 'https://use.fontawesome.com/releases/v5.0.13/js/all.js' },
-      { src: path + 'js/nerd-mode.js' }
+      { src: path + 'js/nerd-mode.js' },
+      { src: path + 'js/iubenda.js' }
     ],
   },
   /*
