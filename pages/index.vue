@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="mt5 mt6-ns">
-        <a id="work" name="work"></a>
+        <a id="publications" name="publications"></a>
         <div class="f3 f2-ns fw6 mb4 mb5-ns tl">
           Some Publications.
         </div>
@@ -71,7 +71,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="/pdf/gesturewiz.pdf">GestureWiz: A Human-Powered Gesture Design Environment for User Interface Prototypes</a>
+              <a class="dim" href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">GestureWiz: A Human-Powered Gesture Design Environment for User Interface Prototypes</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, M. Nebeling
@@ -80,7 +80,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="/pdf/sos.pdf">S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?</a>
+              <a class="dim" href="https://www.researchgate.net/publication/282441131_SOS_Does_Your_Search_Engine_Results_Page_SERP_Need_Help">S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
@@ -89,7 +89,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="/pdf/w3touch.pdf">W3Touch: Metrics-based Web Page Adaptation for Touch</a>
+              <a class="dim" href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">W3Touch: Metrics-based Web Page Adaptation for Touch</a>
             </div>
             <div class="lh-copy">
               M. Nebeling, <span class="fw4">M. Speicher</span>, M.C. Norrie
@@ -98,7 +98,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="/pdf/tmr.pdf">TellMyRelevance! Predicting the Relevance of Web Search Results from Cursor Interactions</a>
+              <a class="dim" href="https://www.researchgate.net/publication/301430241_TellMyRelevance_Predicting_the_Relevance_of_Web_Search_Results_from_Cursor_Interactions">TellMyRelevance! Predicting the Relevance of Web Search Results from Cursor Interactions</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
@@ -107,7 +107,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="/pdf/wappu.pdf">Ensuring Web Interface Quality through Usability-Based Split Testing</a>
+              <a class="dim" href="https://www.researchgate.net/publication/271269916_Ensuring_Web_Interface_Quality_through_Usability-Based_Split_Testing">Ensuring Web Interface Quality through Usability-Based Split Testing</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke

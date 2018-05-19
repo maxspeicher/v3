@@ -10,13 +10,13 @@
           GestureWiz is a rapid prototyping environment for designers to create and test arbitrary, 
           multi-modal gestures without the need for programming or training data.
           <br /><br />
-          A <a href="/pdf/gesturewiz.pdf">full research paper</a> about GestureWiz has been published
-          at the 2018 ACM CHI Conference.
+          A <a href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">full research paper</a>
+          about GestureWiz has been published at the 2018 ACM CHI Conference.
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Human-Powered Gestures.">
-          GestureWiz lets designers create and test arbitrary gestures without training data or the need to
-          write code, simply by using a webcam or Microsoft Kinect.
+          <span class="script">GestureWiz</span> lets designers create and test arbitrary gestures without
+          training data or the need to write code, simply by using a webcam or Microsoft Kinect.
           In step 1, the designer records and saves a set of template gestures.
           Then, they record a gesture that should be recognized, which is automatically posted to
           <a href="https://www.mturk.com/">Amazon Mechanical Turk</a>.
@@ -64,11 +64,10 @@
           <span class="fw4 small-caps">prototype</span>.
           Additionally, we conducted a second <span class="fw4 small-caps">user study</span> with another 12
           interaction designers that were again asked to design gestures for a slideshow application, this time
-          in a co-creation setting.<br /><br />
-          The main findings from the study were that GestureWiz is quick and easy to use and well suited for
-          conflict resolution of ambiguous gestures.
-          The interaction designers we tested with appreciated the support GestureWiz can provide for the
-          prototyping process of gesture-based apps.
+          in a <span class="fw4 small-caps">co-creation</span> setting.<br /><br />
+          The interaction designers we tested with appreciated that GestureWiz is quick and easy to use and
+          well suited for conflict resolution of ambiguous gestures as well as the support it can provide for
+          the prototyping process of gesture-based apps.
         </project-section-text>
         <prev-next prevTitle="360Anywhere" prevLink="360anywhere" nextTitle="HoloBuilder" nextLink="holobuilder"></prev-next>
         <my-footer></my-footer>
@@ -104,7 +103,7 @@ export default {
       process: {
         "Discovery": ["literature review", "competitive analysis"],
         "Concept": ["sketches", "storyboards", "wireframes"],
-        "Iterative Implementation (2&times;)": ["high-fidelity prototype", "crowd worker experiments", "user study", "kanban"]
+        "Iterative Implementation (2&times;)": ["high-fidelity prototype", "crowd worker experiments", "user study", "co-creation", "kanban"]
       }
     }
   })
@@ -119,7 +118,6 @@ export default {
 
   .template-container >>> a {
     color: ivory;
-    text-decoration: none;
   }
   
   .bg-image {

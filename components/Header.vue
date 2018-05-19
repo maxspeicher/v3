@@ -7,7 +7,9 @@
       </div>
       <div class="menu fl fw4 mt2 mt0-ns tl tr-ns w-100 w-50-ns">
         <nuxt-link to="/about" class="mr4">About</nuxt-link>
-        <nuxt-link to="/#work">Work</nuxt-link>
+        <!-- This has to be manually adjusted to match the root dir. -->
+        <a href="/#work" class="mr4">Work</a>
+        <a href="/#publications">Publications</a>
       </div>
   </header>
 </template>

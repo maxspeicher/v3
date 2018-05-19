@@ -7,7 +7,7 @@
       <div class="on-top">
         <my-header></my-header>
         <project-summary title="360Anywhere">
-          In this research project, we wanted to merge the physical and digital worlds by providing a remote
+          In this research project, we wanted to merge the physical and digital worlds by providing a
           collaboration tool that combines 360° video and augmented reality.
           Imagine a meeting room that is live-streamed to remote meeting participants in 360° and whatever
           they draw into the live stream appears in the actual room.<br /><br />
@@ -51,8 +51,8 @@
           </div>
         </project-section>
         <project-section-text title="Building and Testing 360Anywhere.">
-          Starting with an initial prototype based on A-Frame, 360Anywhere was built in three
-          <span class="fw4 small-caps">iterations</span>, each with a
+          Starting with an initial prototype based on A-Frame, <span class="script">360Anywhere</span> was
+          built in three <span class="fw4 small-caps">iterations</span>, each with a
           <span class="fw4 small-caps">user study</span> at the end.
           Based on these tests as well as the challenges and requirements we had identified earlier in the
           process, we ultimately created a system that (among other things) provides the following components
@@ -126,7 +126,6 @@ export default {
 
   .template-container >>> a {
     color: ivory;
-    text-decoration: none;
   }
   
   .bg-image {

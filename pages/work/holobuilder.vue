@@ -15,16 +15,17 @@
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Discovering the Target User.">
-          When I joined HoloBuilder (in their Aachen office), the project was still aimed at whoever owned a
-          360° camera or simply wanted to create AR/VR content online without the programming effort.
+          When I joined <span class="script">HoloBuilder</span> (in their Aachen office), the project was
+          still aimed at whoever owned a 360° camera or simply wanted to create AR/VR content online without
+          the programming effort.
           Therefore, in the first eight months, we conducted a lot of
           <span class="fw4 small-caps">field research</span> (e.g., in local businesses for which we created
           virtual tours), <span class="fw4 small-caps">interviews</span>, and
-          <span class="fw4 small-caps">meetups</span> in order to observe how and why people use the product and
-          to discover suitable use cases.
-          From these insights, we generated <span class="fw4 small-caps">customer journeys</span> as well as
+          <span class="fw4 small-caps">meetups</span> in order to observe how and why people use the product
+          and to discover suitable use cases.
+          From these insights, we synthesized <span class="fw4 small-caps">customer journeys</span> as well as
           various <span class="fw4 small-caps">personas</span> for different kinds of 360° camera owners, e.g.,
-          professional photographers vs. tech enthusiasts.<br /><br />
+          professional photographers and tech enthusiasts.<br /><br />
           Ultimately, in October 2015, we discovered that virtual tours created with HoloBuilder are
           particularly useful to real estate agents, while the CEO (in San Francisco) attracted the interest of
           the construction industry.
@@ -41,14 +42,14 @@
           The goal was to provide functionality for uploading and displaying floor plans on which the location
           of the different 360° photos in a virtual tour could be marked (think Google Maps for construction
           sites).<br /><br />
-          After eliciting initial requirements in intial <span class="fw4 small-caps">interviews</span> (e.g.,
-          the possibility to upload both images and PDFs), in coordination with the responsible graphic designer
-          and software engineer, I created a variety of potential solutions in the form of
+          After eliciting initial requirements in <span class="fw4 small-caps">interviews</span> (e.g.,
+          the possibility to upload both images and PDFs), in coordination with the responsible graphic
+          designer and software engineer, I created a variety of potential solutions in the form of
           <span class="fw4 small-caps">sketches</span> and <span class="fw4 small-caps">storyboards</span>.
           In the following, we selected the four best ideas and I created medium-fidelity
           <span class="fw4 small-caps">mockups</span> that were presented to the CEO and stakeholders.
-          With the gathered feedback, I revised the mockups in a second iteration, based on which a decision was
-          made.
+          With the gathered feedback, I revised the mockups in a second iteration, based on which a decision
+          was made.
           Subsequently, the feature went into production and we implemented an
           <span class="fw4 small-caps">mvp</span> that was in the following incrementally improved using
           <span class="fw4 small-caps">Lean UX</span> principles.
@@ -67,15 +68,16 @@
         <project-section-text title="Company-wide Data Analytics.">
           Besides the above, my primary responsibility at HoloBuilder was to guarantee the continuous delivery
           of meaningful data and insights to C-level management and other internal stakeholders.
-          For this I acted as the internal product manager (officially VP of Customer &amp; Data Analytics
+          For this I acted as the internal Product Manager (officially VP of Customer &amp; Data Analytics
           &amp; Optimization) responsible for the design and development of a company-wide data analytics
           pipeline.
           In a discovery phase, I first identified my customers within the company&mdash;the CEO, the VP of
           Product, Marketing, Customer Support, and Sales&mdash;and conducted
           <span class="fw4 small-caps">interviews</span> to determine initial requirements.
           In parallel, I researched which data was already available and to be included in the infrastructure.
-          Afterwards, I designed the data analytics pipeline, which was iteratively revised depending on
-          stakeholders' changing requirements.
+          Afterwards, I designed the data analytics pipeline, which was
+          <span class="fw4 small-caps">iteratively revised</span> depending on stakeholders' changing
+          requirements.
           I led a cross-functional team of 4 people that helped with the implementation (embedded into the
           company's <span class="fw4 small-caps">scrum</span> process) and continuous delivery of insights.
           On a weekly basis, together with the marketing manager, I presented core insights to C-level
@@ -84,8 +86,8 @@
           platform based on <span class="fw4 small-caps">lean ux</span> principles.<br /><br />
 
           As is natural in startup environments, I also had a number of other responsibilities, such as leading
-          a task force for writing a patent and developing the first version of the HoloBuilder brand book, which
-          defined the company's branding and CI.
+          a task force for writing a patent and developing the first version of the HoloBuilder brand book,
+          which defined the company's branding and CI.
         </project-section-text>
         <prev-next prevTitle="GestureWiz" prevLink="gesturewiz" nextTitle="Search Interaction Optimization" nextLink="sio"></prev-next>
         <my-footer></my-footer>
@@ -136,7 +138,6 @@ export default {
 
   .template-container >>> a {
     color: ivory;
-    text-decoration: none;
   }
   
   .bg-image {

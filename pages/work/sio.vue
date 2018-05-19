@@ -8,7 +8,7 @@
         <my-header></my-header>
         <project-summary title="Search Interaction Optimization">
           I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH, who were
-          developing BlueKiwi, a semantic search engine, at that time.
+          developing <span class="script">BlueKiwi,</span> a semantic search engine, at that time.
           The goal of my project was to develop a new methodology for more automatic usability evaluation
           and optimization of search engines that is still effective.<br /><br />
 
@@ -18,7 +18,7 @@
         <process v-bind:data="process"></process>  
         <project-section-text title="Finding a Ph.D. Project.">
           My first task after joining Unister was to find a project I could write my Ph.D. thesis about and
-          pitch it internally as well as to Chemnitz University if Technology and the SAB
+          pitch it internally as well as to Chemnitz University of Technology and the SAB
           (Sächsische AufbauBank), who granted my scholarship.
           I started with a <span class="fw4 small-caps">literature review</span> and
           <span class="fw4 small-caps">competitive analysis</span>.
@@ -40,13 +40,13 @@
         </project-section>
         <project-section-text title="Predicting the Relevance of Search Results from User Interactions.">
           In search engines, relevance (or informativeness) is a crucial usability factor.
-          I <span class="fw4 small-caps">designed and developed</span> TMR, a pipeline that utilized a variety
-          of user interactions (e.g., cursor speed and the length of the cursor trail) determine the relevance
-          of search results.
+          I designed and developed <span class="script">TellMyRelevance!</span> (TMR), a pipeline that
+          utilized a variety of user interactions (e.g., cursor speed and the length of the cursor trail) to
+          determine the relevance of search results.
           I was allowed to collect more than 30 GB of interaction data on two travel-booking websites, which
           were used to train machine-learning models used for relevance prediction.
           In comparison to a state-of-the-art solution used in industry, TMR performed considerably better for
-          all datasets in a <span class="fw4 small-caps">large-scale analysis</span>.
+          all datasets in my <span class="fw4 small-caps">large-scale data analysis</span>.
           In another iteration, TMR was extended with streaming capabilities and incremental learning
           and predictions were ultimately incorporated into BlueKiwi.
         </project-section-text>
@@ -59,24 +59,26 @@
           understandability, readability, etc.) that are suitable for correlation with user interactions.
           Therefore, I conducted a review of existing best practices and guidelines as well as
           <span class="fw4 small-caps">interviews</span> with nine usability professionals.
-          Then, I designed and developed WaPPU, a new A/B testing tool based on a usability score rather than
-          clicks on ads.
+          Then, I designed and developed <span class="script">WaPPU</span>, a new A/B testing tool based on a
+          usability score rather than clicks on ads.
           WaPPU collects interaction data on two versions of the same website, trains machine-learning models,
           predicts usability as a single score as well as the items from my new questionnaire and then
           determines the better interface.
-          In a <span class="fw4 small-caps">user study</span> with more than 80 participants that compared
-          BlueKiwi's results page with a deliberately worse version of it, WaPPU could correctly identify even
-          subtle differences in usability.
+          I used a first <span class="fw4 small-caps">prototype</span> in a <span class="fw4 small-caps">user
+          study</span> to validate my new questionnaire and refine the system.
+          In a second study with more than 80 participants who compared BlueKiwi's results page with a
+          deliberately worse version of it, WaPPU could correctly identify even subtle differences in
+          usability.
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/SERP-comparison.jpg" />
         </project-section>
         <project-section-text title="Optimizing BlueKiwi.">
-          Based on a <span class="fw4 small-caps">competitive analysis</span> of existing search engines and two
-          rounds of <span class="fw4 small-caps">expert inspections</span>, WaPPU was then extended with a
-          catalog of based practices to form S.O.S., a system that automatically proposes usability
-          optimizations based on the usability measurements, such as <q>Your site is not well readable, you
-          should consider changing your font size</q>.
+          Based on a <span class="fw4 small-caps">competitive analysis</span> of existing search engines and
+          two rounds of <span class="fw4 small-caps">expert inspections</span>, WaPPU was then extended with a
+          catalog of based practices to form <span class="script">S.O.S.,</span> a system that automatically
+          proposes usability optimizations based on the usability measurements, such as <q>Your site is not
+          well readable, you should consider changing your font size</q>.
           Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
           results page and informed a redesign that proved to yield significantly better usability.
         </project-section-text>
@@ -115,7 +117,7 @@ export default {
         "Discovery": ["literature review", "competitive analysis", "field research", "interviews"],
         "Synthesis": ["personas", "scenarios"],
         "Relevance Prediction": ["iterative implementation (2&times;)", "large-scale data analysis (2&times;)"],
-        "Usability Evaluation": ["expert interviews", "user study", "a/b testing"],
+        "Usability Evaluation": ["expert interviews", "iterative implementation (2&times;)", "user study (2&times;)", "a/b testing"],
         "Usability Optimization": ["competitive analysis", "expert inspections (2&times;)", "user study"]
       }
     }
@@ -131,7 +133,6 @@ export default {
 
   .template-container >>> a {
     color: ivory;
-    text-decoration: none;
   }
   
   .bg-image {

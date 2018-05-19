@@ -6,81 +6,65 @@
     <div class="template-container-inner pa3 pa5-ns tc">
       <div class="on-top">
         <my-header></my-header>
-        <project-summary title="Search Interaction Optimization">
-          I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH, who were
-          developing BlueKiwi, a semantic search engine, at that time.
-          The goal of my project was to develop a new methodology for more automatic usability evaluation
-          and optimization of search engines that is still effective.<br /><br />
-
-          Its title was
-          <a href="http://www.qucosa.de/fileadmin/data/qucosa/documents/20810/Dissertation_Archivierung_Speicher.pdf">Search Interaction Optimization: A Human-Centered Design Approach</a>.
+        <project-summary title="W3Touch">
+          Many websites are still not optimized for mobile phones.
+          For my Master's thesis, I therefore developed W3Touch, a plugin that collects user interactions and
+          automatically adapts websites based on them.
+          For instance, if users always zoom into a certain paragraph of text, that paragraph will be 
+          increased based on the average zooming factor.
+          This creates <q>self-repairing</q> websites that adjust over time and at the same time highlights
+          the most important information.<br /><br />
+          A <a href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">full research paper</a>
+          about W3Touch has been published at the 2018 ACM CHI Conference.
         </project-summary>
         <process v-bind:data="process"></process>  
-        <project-section-text title="Finding a Ph.D. Project.">
-          My first task after joining Unister was to find a project I could write my Ph.D. thesis about and
-          pitch it internally as well as to Chemnitz University if Technology and the SAB
-          (Sächsische AufbauBank), who granted my scholarship.
-          I started with a <span class="fw4 small-caps">literature review</span> and
-          <span class="fw4 small-caps">competitive analysis</span>.
-          After that, because of my interest in HCI, I spent some time doing
-          <span class="fw4 small-caps">field research</span> at various teams within Unister&mdash;front-end,
-          UI design, usability testing, and data analytics&mdash;where I
-          <span class="fw4 small-caps">interviewed</span> people and discovered that traditional usability
-          evaluation through user studies was virtually absent.
-          Instead, optimization was mostly based on split testing and conversions such as the number of
-          clicked ads.
-          Clearly, there was the need for a new approach that would combine split testing with an effective
-          metric for usability.
-          I concluded this phase by synthesizing two <span class="fw4 small-caps">personas</span> (Finn, the
-          searcher and Rey, the developer) and four <span class="fw4 small-caps">scenarios</span> from my
-          findings, which would form the basis for my Ph.D. thesis.
+        <project-section-text title="Identifying Common Usability Issues.">
+          To build a plugin that automatically enhances the usability of websites on mobile devices,
+          we first had to identify common usability issues that required attention and how they should be
+          addressed.
+          For this, we <span class="fw4 small-caps">reviewed</span> existing literature as well as the
+          Wikipedia desktop site in comparison to their mobile app and in a second
+          step conducted <span class="fw4 small-caps">interviews</span> with six web designers.
+          From these, we identified two core issues: links that are too small and therefore missed and 
+          unreadable text.
         </project-section-text>
-        <project-section>
-          <img class="w-75-l shadow" src="~/assets/img/sio/interview-setup.jpg" />
+        <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
+          <div class="video-wrapper">
+            <iframe class="shadow" width="560" height="315" src="https://www.youtube-nocookie.com/embed/G0lj_ArvpUg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
         </project-section>
-        <project-section-text title="Predicting the Relevance of Search Results from User Interactions.">
-          In search engines, relevance (or informativeness) is a crucial usability factor.
-          I <span class="fw4 small-caps">designed and developed</span> TMR, a pipeline that utilized a variety
-          of user interactions (e.g., cursor speed and the length of the cursor trail) determine the relevance
-          of search results.
-          I was allowed to collect more than 30 GB of interaction data on two travel-booking websites, which
-          were used to train machine-learning models used for relevance prediction.
-          In comparison to a state-of-the-art solution used in industry, TMR performed considerably better for
-          all datasets in a <span class="fw4 small-caps">large-scale analysis</span>.
-          In another iteration, TMR was extended with streaming capabilities and incremental learning
-          and predictions were ultimately incorporated into BlueKiwi.
+        <project-section-text title="Using W3Touch to Adapt Wikipedia.">
+          I developed a <span class="fw4 small-caps">first version</span> of
+          <span class="script">W3Touch</span>, with which we conducted a
+          <span class="fw4 small-caps">remote asynchronous user study</span> with 84 participants.
+          In this study, we collected user interactions on the desktop version of Wikipedia as used on
+          a mobile phone by one half of the participants.
+          We then created an adapted version based on the collected data that was assessed by the other half
+          and performed considerably better.
+          Afterwards, the W3Touch <span class="fw4 small-caps">prototype</span> was revised according to the
+          collected user feedback.
         </project-section-text>
-        <project-section>
-          <img src="~/assets/img/sio/sio-mockup-1.png" />
+        <project-section class="cf dt">
+          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+            <img class="shadow" src="~/assets/img/w3touch/step-1.jpg" />
+          </div>
+          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+            <img class="shadow" src="~/assets/img/w3touch/step-2.jpg" />
+          </div>
+          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+            <img class="shadow" src="~/assets/img/w3touch/step-3.jpg" />
+          </div>
         </project-section>
-        <project-section-text title="Usability-based Split Testing: A New Methodology.">
-          Next, I applied the insights gained from relevance prediction to usability in general.
-          For this, I first had to develop a new usability questionnaire with items (informativeness,
-          understandability, readability, etc.) that are suitable for correlation with user interactions.
-          Therefore, I conducted a review of existing best practices and guidelines as well as
-          <span class="fw4 small-caps">interviews</span> with nine usability professionals.
-          Then, I designed and developed WaPPU, a new A/B testing tool based on a usability score rather than
-          clicks on ads.
-          WaPPU collects interaction data on two versions of the same website, trains machine-learning models,
-          predicts usability as a single score as well as the items from my new questionnaire and then
-          determines the better interface.
-          In a <span class="fw4 small-caps">user study</span> with more than 80 participants that compared
-          BlueKiwi's results page with a deliberately worse version of it, WaPPU could correctly identify even
-          subtle differences in usability.
+        <project-section-text title="Great Success.">
+          Finally, we carried out another <span class="fw4 small-caps">user study</span>, this time in-lab
+          with 13 participants, to validate our results.
+          We compared the version of Wikipedia adapted by W3Touch to both the desktop site and Wikipedia's
+          dedicated mobile page.
+          Results suggested that the W3Touch version was able to compete with the version specifically
+          designed for mobile, which is a promising result given the relatively small design effort based on
+          only two core usability issues.
         </project-section-text>
-        <project-section>
-          <img class="w-75-l shadow" src="~/assets/img/sio/SERP-comparison.jpg" />
-        </project-section>
-        <project-section-text title="Optimizing BlueKiwi.">
-          Based on a <span class="fw4 small-caps">competitive analysis</span> of existing search engines and two
-          rounds of <span class="fw4 small-caps">expert inspections</span>, WaPPU was then extended with a
-          catalog of based practices to form S.O.S., a system that automatically proposes usability
-          optimizations based on the usability measurements, such as <q>Your site is not well readable, you
-          should consider changing your font size</q>.
-          Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
-          results page and informed a redesign that proved to yield significantly better usability.
-        </project-section-text>
-        <prev-next prevTitle="HoloBuilder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
+        <prev-next prevTitle="Search Interaction Optimization" prevLink="sio"></prev-next>
         <my-footer></my-footer>
       </div>
     </div>
@@ -108,15 +92,13 @@ export default {
   },
   data: () => ({
     process: {
-      teamSize: "roughly 30",
-      timeframe: "Jun 2012&ndash;Dec 2014",
-      roles: ["Industrial Ph.D. Student", "User Research", "System Design + Architecture", "Project Management", "Code"],
+      teamSize: "2",
+      timeframe: "Sep 2011&ndash;Mar 2012",
+      roles: ["Master's Student", "User Research", "System Design + Architecture", "Code"],
       process: {
-        "Discovery": ["literature review", "competitive analysis", "field research", "interviews"],
-        "Synthesis": ["personas", "scenarios"],
-        "Relevance Prediction": ["iterative implementation (2&times;)", "large-scale data analysis (2&times;)"],
-        "Usability Evaluation": ["expert interviews", "user study", "a/b testing"],
-        "Usability Optimization": ["competitive analysis", "expert inspections (2&times;)", "user study"]
+        "Discovery": ["literature review", "interviews"],
+        "Implementation": ["first prototype", "user study", "second prototype"],
+        "Validation": ["user study"]
       }
     }
   })
@@ -131,7 +113,6 @@ export default {
 
   .template-container >>> a {
     color: ivory;
-    text-decoration: none;
   }
   
   .bg-image {
