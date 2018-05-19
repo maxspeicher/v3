@@ -18,15 +18,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio of Maximilian Speicher.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: path + '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css' },
       { rel: 'stylesheet', href: path + 'css/main.css' },
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js' },
       { src: 'https://use.fontawesome.com/releases/v5.0.13/js/all.js' },
-      { src: path + 'js/nerd-mode.js' },
-      { src: path + 'js/iubenda.js' }
+      { src: path + 'js/nerd-mode.js' }
     ],
   },
   /*

@@ -1,22 +1,32 @@
 <template>
-  <footer class="tc mt6">
-      Made with <i class="fas fa-coffee"></i> in Ann Arbor, MI.
+  <footer class="cf lh-copy mt6">
+    <div class="fl w-100 w-50-ns tc tl-ns">
+    <!-- &copy; 2018 <span class="fw4">Maximilian Speicher</span>. -->
+      Made with <i class="fas fa-coffee"></i> in <span class="fw4">Ann Arbor, MI.</span><br />
       Powered by <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> and <a href="http://tachyons.io/" target="_blank">Tachyons</a>.
       <div class="mt4">
-        <a href="https://www.iubenda.com/privacy-policy/16529602" class="iubenda-white iubenda-embed " title="Privacy Policy">Privacy Policy</a>
+        <privacy-policy></privacy-policy>
       </div>
-      <div class="social-media mv4">
+    </div>
+    <div class="fl mt4 mt0-ns w-100 w-50-ns tc tr-ns">
+      <div class="social-media">
         <a class="dim" href="https://www.researchgate.net/profile/Maximilian_Speicher"><i class="fab fa-researchgate fa-2x mh2"></i></a>
         <a class="dim" href="https://www.linkedin.com/in/maximilianspeicher/"><i class="fab fa-linkedin-in fa-2x mh2"></i></a>
         <a class="dim" href="https://github.com/maxspeicher/"><i class="fab fa-github fa-2x mh2"></i></a>
         <a class="dim" href="#" v-on:click="strikeMeDownWithAllYourHatred"><i class="fab fa-sith fa-2x mh2"></i></a>
         <a class="dim" href="https://medium.com/@maxspeicher"><i class="fab fa-medium-m fa-2x mh2"></i></a>
       </div>
+    </div>
   </footer>
 </template>
 
 <script>
+import PrivacyPolicy from "~/components/PrivacyPolicy.vue"
+
 export default {
+  components: {
+      PrivacyPolicy
+  },
   methods: {
     strikeMeDownWithAllYourHatred(e) {
       e.preventDefault();
