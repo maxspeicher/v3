@@ -52,7 +52,7 @@
               <a class="dim" href="http://eics.acm.org/2018/">360Anywhere: Mobile Ad-hoc Collaboration in Any Environment using 360 Video and Augmented Reality</a>
             </div>
             <div class="lh-copy">
-              <span class="fw4">Maximilian Speicher</span>, Jingchen Cao, Ao Yu, Haihua Zhang, Michael Nebeling
+              <span class="fw4">M. Speicher</span>, J. Cao, A. Yu, H. Zhang, M. Nebeling
               &bull; <span class="fw4">EICS '18</span> &bull; #AR
             </div>
           </div>
@@ -65,26 +65,53 @@
               <a class="dim" href="http://eics.acm.org/2018/">XD-AR: Challenges and Opportunities in Cross-Device Augmented Reality Application Development</a>
             </div>
             <div class="lh-copy">
-              <span class="fw4">Maximilian Speicher</span>, Brian D. Hall, Ao Yu, Bowen Zhang, Haihua Zhang, Janet Nebeling, Michael Nebeling
+              <span class="fw4">M. Speicher</span>, B.D. Hall, A. Yu, B. Zhang, H. Zhang, J. Nebeling, M. Nebeling
               &bull; <span class="fw4">EICS '18</span> &bull; #AR
             </div>
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="~/assets/gesturewiz.pdf">GestureWiz: A Human-Powered Gesture Design Environment for User Interface Prototypes</a>
+              <a class="dim" href="/pdf/gesturewiz.pdf">GestureWiz: A Human-Powered Gesture Design Environment for User Interface Prototypes</a>
             </div>
             <div class="lh-copy">
-              <span class="fw4">Maximilian Speicher</span>, Michael Nebeling
+              <span class="fw4">M. Speicher</span>, M. Nebeling
               &bull; <span class="fw4">CHI '18</span> &bull; #UX design
             </div>
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="~/assets/gesturewiz.pdf">S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?</a>
+              <a class="dim" href="/pdf/sos.pdf">S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?</a>
             </div>
             <div class="lh-copy">
-              <span class="fw4">Maximilian Speicher</span>, Andreas Both, Martin Gaedke
-              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="fas fa-trophy"></i> &bull; #usability
+              <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
+              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="fas fa-trophy"></i> &bull; #UX design
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="f4 fw4 lh-title mb3">
+              <a class="dim" href="/pdf/w3touch.pdf">W3Touch: Metrics-based Web Page Adaptation for Touch</a>
+            </div>
+            <div class="lh-copy">
+              M. Nebeling, <span class="fw4">M. Speicher</span>, M.C. Norrie
+              &bull; <span class="fw4">CHI '13</span> &bull; #usability
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="f4 fw4 lh-title mb3">
+              <a class="dim" href="/pdf/tmr.pdf">TellMyRelevance! Predicting the Relevance of Web Search Results from Cursor Interactions</a>
+            </div>
+            <div class="lh-copy">
+              <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
+              &bull; <span class="fw4">CIKM '13</span> &bull; #usability
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="f4 fw4 lh-title mb3">
+              <a class="dim" href="/pdf/wappu.pdf">Ensuring Web Interface Quality through Usability-Based Split Testing</a>
+            </div>
+            <div class="lh-copy">
+              <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
+              &bull; <span class="fw4">ICWE '14</span> &bull; #usability
             </div>
           </div>
         </div>

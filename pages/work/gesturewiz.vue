@@ -10,7 +10,7 @@
           GestureWiz is a rapid prototyping environment for designers to create and test arbitrary, 
           multi-modal gestures without the need for programming or training data.
           <br /><br />
-          A <a href="~/assets/pdf/gesturewiz.pdf">full research paper</a> about GestureWiz has been published
+          A <a href="/pdf/gesturewiz.pdf">full research paper</a> about GestureWiz has been published
           at the 2018 ACM CHI Conference.
         </project-summary>
         <process v-bind:data="process"></process>  
