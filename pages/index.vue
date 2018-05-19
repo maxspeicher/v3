@@ -156,22 +156,22 @@ export default {
 
 <style>
 .box-360anywhere {
-  background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
+  background-image: url(~/assets/img/360anywhere/360anywhere-thumb.jpg);
 }
 
 .box-gesturewiz {
-  background-image: url(~/assets/img/gesturewiz/gesturewiz.jpg);
+  background-image: url(~/assets/img/gesturewiz/gesturewiz-thumb.jpg);
 }
 
 .box-holobuilder {
-  background-image: url(~/assets/img/holobuilder/holobuilder.jpg);
+  background-image: url(~/assets/img/holobuilder/holobuilder-thumb.jpg);
 }
 
 .box-sio {
-  background-image: url(~/assets/img/sio/sio.jpg);
+  background-image: url(~/assets/img/sio/sio-thumb.jpg);
 }
 
 .box-w3touch {
-  background-image: url(~/assets/img/w3touch/w3touch.jpg);
+  background-image: url(~/assets/img/w3touch/w3touch-thumb.jpg);
 }
 </style>
