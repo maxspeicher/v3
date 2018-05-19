@@ -4,12 +4,14 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {};
 
+const path = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' : '';
+
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'Maximilian Speicher\'s Portfolio',
+    title: 'The Portfolio of Maximilian Speicher',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -18,12 +20,12 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css' },
-      { rel: 'stylesheet', href: '/css/main.css' },
+      { rel: 'stylesheet', href: path + 'css/main.css' },
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js' },
       { src: 'https://use.fontawesome.com/releases/v5.0.13/js/all.js' },
-      { src: '/js/nerd-mode.js' }
+      { src: path + 'js/nerd-mode.js' }
     ],
   },
   /*

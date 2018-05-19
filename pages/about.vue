@@ -52,9 +52,9 @@
             One of my biggest strenghts is that I'm a quick learner, which has helped me a lot in my career
             so far.<br /><br />
 
-            Apart from everything above, I'm a passionate <span class="script">Ringtennis</span> player. I've won
-            five German Championships and two World Team Championships and was the men's captain of the Germany
-            Ringtennis National Team from 2010 till 2018.
+            Apart from everything above, I'm also a passionate <span class="script">Ringtennis</span> player.
+            I've won five German Championships and two World Team Championships and was the men's captain of
+            the Germany Ringtennis National Team from 2010 till 2018.
         </div>
       </div>
       <div class="mt5 mt6-ns">
