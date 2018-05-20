@@ -50,7 +50,7 @@
             <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-3.jpg" />
           </div>
         </project-section>
-        <project-section-text title="Building and Testing 360Anywhere.">
+        <project-section-text title="Building and Testing 360&shy;Any&shy;where.">
           Starting with an initial prototype based on A-Frame, <span class="script">360Anywhere</span> was
           built in three <span class="fw4 small-caps">iterations</span>, each with a
           <span class="fw4 small-caps">user study</span> at the end.

@@ -18,7 +18,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio of Maximilian Speicher.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: path + '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: path + 'favicon.ico' },
       { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css' },
       { rel: 'stylesheet', href: path + 'css/main.css' },
     ],
@@ -49,6 +49,40 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+
+      config.module.rules.forEach((rule) => {
+        if (rule.test.toString() === '/\\.(png|jpe?g|gif|svg)$/'){
+          rule.use = [
+            {
+              loader: 'url-loader',
+              options: {
+                limit: 1000,
+                name: 'img/[name].[hash:7].[ext]'
+              }
+            },
+            {
+              loader: 'image-webpack-loader',
+              options: {
+                mozjpeg: {
+                  progressive: true,
+                  quality: 65
+                },
+                optipng: {
+                  enabled: false,
+                },
+                pngquant: {
+                  quality: '65-90',
+                  speed: 1,
+                  verbose: true
+                },
+              }
+            },
+          ];
+          delete rule.loader;
+          delete rule.options;
+        }
+      })
     }
-  }
+  },
+  vendor: ['image-webpack-loader']
 }
