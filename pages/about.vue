@@ -3,16 +3,23 @@
     <div class="template-container-inner pa3 pa5-ns tc">
       <my-header></my-header>
       <div class="f4 f3-ns fw4 lh-title mt4 tl">
-        I'm Max, currently a post-doctoral research fellow at the University of Michigan in Ann Arbor.
-        Previously, I've done <span class="fw6">Human-Centered Design</span> at HoloBuilder and
-        Unister.<br /><br />
-
-        Management and Leadership experience ...<br /><br />
-
-        I hold a <span class="fw6">Ph.D.</span> in Computer Science and have specialized in Human-Centered
-        Design since 2010.
+        <div class="mb3">
+          I'm Max, currently a post-doctoral research fellow at the University of Michigan working on 
+          <span class="fw5">augmented reality</span>,
+          <span class="fw5">UX design</span>, and 
+          <span class="fw5">usability</span> topics.
+        </div>
+        <div class="mb3">
+          Throughout my career, I've gained <span class="fw5">leadership</span> and
+          <span class="fw5">management</span> experience in various roles&mdash;in both,
+          <span class="fw5">academia</span> and <span class="fw5">industry</span>.
+        </div>
+        <div class="mb3">
+          I hold a <span class="fw5">Ph.D.</span> in Computer Science and have specialized in and done
+          <span class="fw5">Human-Centered Design</span> since 2010.
+        </div>
       </div>
-      <div class="dib f1 fw6 measure-wide mt5 mt6-ns tl">
+      <div class="dib measure-wide mt5 mt6-ns tl">
         <img src="~/assets/img/me-as-a-venn-diagram.png" style="max-width: 667px; width: 100%" />
       </div>
       <div class="cf lh-copy mt5 mt6-ns tl">
@@ -22,15 +29,15 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             Currently, I'm a post-doctoral research fellow.
             The research projects I lead at the University of Michigan School of Information focus on
-            natural user interfaces &amp; UX design, with a particular emphasis on
-            <span class="fw6">augmented and virtual reality</span>.
-            In particular, we develop new method for physical and digital prototyping to support the design
-            process of AR/VR experiences.
-            I also assist with teaching interaction design and have introduced Kanban for our research
-            projects.
+            natural user interfaces &amp; <span class="fw5">UX design</span>, with a particular emphasis on
+            <span class="fw5">AR/VR</span> and <span class="fw5">usability</span>.
+            In particular, we develop new methods for physical and digital prototyping to support the design
+            process for AR/VR experiences.
+            I also assist with teaching <span class="fw5">interaction design</span> and have introduced
+            <span class="fw5">Kanban</span> for our research projects.
             <br /><br />
-            I earned my Ph.D. from Chemnitz University of Technology in 2016 and
-            my M.Sc. from ETH Zurich in 2012.
+            I earned my Ph.D. from Chemnitz University of Technology in 2016 and my M.Sc. from ETH Zurich
+            in 2012.
         </div>
       </div>
       <div class="cf lh-copy mt5 mt6-ns tl">
@@ -40,11 +47,17 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             For two years, I've helped grow HoloBuilder, an AR/VR startup now specializing in solutions for
             the construction industry.
-            As their VP of Customer &amp; Data Analytics &amp; Optimization, I designed a company-wide
-            data analytics pipeline and was also significantly involved in user research and UX design.<br /><br />
-            Prior to that, I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH
-            (Leipzig), where I developed a new methodology for more automatic usability evaluation and
-            optimization of search engines that is still effective.
+            As their VP of Customer &amp; Data Analytics &amp; Optimization, I acted as the internal product
+            manager responsible for company-wide data analytics.
+            I was also significantly involved in <span class="fw5">user research</span> and
+            <span class="fw5">UX design</span>, e.g., as feature owner and designer of core platform
+            features.<br /><br />
+            Prior to that, I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH,
+            where I developed a new human-centered methodology for more automatic
+            <span class="fw5">usability</span> evaluation and optimization of search engines that is still
+            effective.<br /><br />
+            In my 4&frac12; years in industry, I have learned working in <span class="fw5">Scrum</span> teams
+            first-hand.
         </div>
       </div>
       <div class="cf lh-copy mt5 mt6-ns tl">
@@ -57,7 +70,7 @@
             In my opionion, one of my biggest strenghts is probably that I'm a quick learner, which has helped
             me a lot in my career so far.<br /><br />
 
-            Apart from everything above, I'm also a passionate <span class="fw6">Ringtennis</span> player.
+            Apart from everything above, I'm also a passionate <span class="fw5">Ringtennis</span> player.
             I've won five German Championships and two World Team Championships and was the men's captain of
             the Germany Ringtennis National Team from 2010 till 2018.
 
