@@ -4,10 +4,12 @@
       <my-header></my-header>
       <div class="f4 f3-ns fw4 lh-title mt4 tl">
         <div class="mb3">
-          I'm Max, currently a post-doctoral research fellow at the University of Michigan working on 
+          I'm Max, currently a post-doctoral fellow at the University of Michigan working on 
           <span class="fw5">augmented reality</span>,
           <span class="fw5">UX design</span>, and 
           <span class="fw5">usability</span> topics.
+          I'm passionate about research, designing and developing interactive systems and digital products,
+          and working with cutting-edge technologies.
         </div>
         <div class="mb3">
           Throughout my career, I've gained <span class="fw5">leadership</span> and
