@@ -107,7 +107,7 @@ export default {
     process: {
       teamSize: 5,
       timeframe: "Jun&ndash;Sep 2017",
-      roles: ["Project Lead", "User Research", "System Design + Architecture"],
+      roles: ["Team/Project Lead", "User Research", "System Design + Architecture"],
       process: {
         "Discovery": ["literature review", "competitive analysis"],
         "Concept": ["sketches", "storyboards", "mind maps", "affinity diagrams", "wireframes", "initial prototype"],

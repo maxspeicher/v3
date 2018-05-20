@@ -2,14 +2,25 @@
   <header class="cf mb6">
       <div class="abril f3 fl tl w-100 w-50-ns">
           <div class="dib" v-on:mouseenter="rotateCharacters">
-            <nuxt-link to="/"><span class="rotate m">M</span>aximilian <span class="rotate s">S</span>peicher.</nuxt-link>
+            <nuxt-link to="/">
+              <span class="rotate m">M</span>aximilian
+              <span class="nowrap">
+                <span class="rotate s">S</span>peicher.
+              </span>
+            </nuxt-link>
           </div>
       </div>
-      <div class="menu fl fw4 mt2 mt0-ns tl tr-ns w-100 w-50-ns">
-        <nuxt-link to="/about" class="mr4">About</nuxt-link>
+      <div class="menu dt fl fw4 mt2 mt0-ns pt2-ns tl tr-ns w-100 w-50-ns">
+        <span class="dib mb2-m">
+          <nuxt-link to="/about">About</nuxt-link>&nbsp;
+        </span>
         <!-- This has to be manually adjusted to match the root dir. -->
-        <a href="/#work" class="mr4">Work</a>
-        <a href="/#publications">Publications</a>
+        <span class="dib mb2-m pl4">
+          <a href="/#work">Work</a>&nbsp;
+        </span>
+        <span class="dib pl4">
+          <a href="/#publications">Publications</a>&nbsp;
+        </span>
       </div>
   </header>
 </template>

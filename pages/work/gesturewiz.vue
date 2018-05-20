@@ -99,7 +99,7 @@ export default {
     process: {
       teamSize: 3,
       timeframe: "Mar&ndash;May 2017",
-      roles: ["Project Lead", "User Research", "System Design", "Code"],
+      roles: ["Team/Project Lead", "User Research", "System Design", "Code"],
       process: {
         "Discovery": ["literature review", "competitive analysis"],
         "Concept": ["sketches", "storyboards", "wireframes"],

@@ -115,8 +115,10 @@
             </div>
           </div>
         </div>
-        <div class="tl">
-          <a href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more ...</a>
+        <div class="f4 tl">
+          <a class="fw4" href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more</a>
+          &nbsp;
+          <i class="fas fa-long-arrow-alt-right"></i>
         </div>
       </div>
       <my-footer></my-footer>

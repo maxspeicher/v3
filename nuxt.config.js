@@ -4,7 +4,7 @@ const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   }
 } : {};
 
-const path = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' : '';
+const path = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' : '/';
 
 module.exports = {
   /*
@@ -31,7 +31,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: 'gold' },
+  loading: { color: '#111' },
   /*
   ** Build configuration
   */
