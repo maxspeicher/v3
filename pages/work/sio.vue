@@ -53,7 +53,7 @@
         <project-section>
           <img src="~/assets/img/sio/sio-mockup-1.png" />
         </project-section>
-        <project-section-text title="Usability-based Split Testing: A New Methodology.">
+        <project-section-text title="Usability-based Split Testing: A New Metho&shy;do&shy;logy.">
           Next, I applied the insights gained from relevance prediction to usability in general.
           For this, I first had to develop a new usability questionnaire with items (informativeness,
           understandability, readability, etc.) that are suitable for correlation with user interactions.

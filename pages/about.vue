@@ -31,7 +31,7 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             Currently, I'm a post-doctoral research fellow.
             The research projects I lead at the University of Michigan School of Information focus on
-            natural user interfaces &amp; <span class="fw5">UX design</span>, with a particular emphasis on
+            natural user interfaces &amp; <span class="fw5">UX design</span>, with an emphasis on
             <span class="fw5">AR/VR</span> and <span class="fw5">usability</span>.
             In particular, we develop new methods for physical and digital prototyping to support the design
             process for AR/VR experiences.

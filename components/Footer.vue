@@ -2,7 +2,7 @@
   <footer class="cf lh-copy mt6">
     <div class="fl w-100 w-50-ns tc tl-ns">
     <!-- &copy; 2018 <span class="fw4">Maximilian Speicher</span>. -->
-      Made with <i class="fas fa-coffee"></i> in <span class="fw4">Ann Arbor, MI.</span><br />
+      Made with <i class="fas fa-coffee"></i> in <span class="fw4">Ann Arbor.</span><br />
       Powered by <a href="https://nuxtjs.org/" target="_blank">Nuxt.js</a> and <a href="http://tachyons.io/" target="_blank">Tachyons</a>.
       <div class="mt4">
         <privacy-policy></privacy-policy>
