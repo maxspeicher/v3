@@ -52,7 +52,7 @@
           was made.
           Subsequently, the feature went into production and we implemented an
           <span class="fw4 small-caps">mvp</span> that was in the following incrementally improved using
-          <span class="fw4 small-caps">Lean UX</span> principles.
+          <span class="fw4 small-caps">lean ux</span> principles.
           After I left the company, the floor plan was further extended with the option for multiple floors,
           among other things.
           It is still one of the core features of HoloBuilder.

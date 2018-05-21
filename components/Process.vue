@@ -5,7 +5,7 @@
         <div class="fw7 pb3 ttu">Setting</div>
         <div class="pb3">Team of <span class="fw7">{{ data.teamSize }}</span></div>
         <div class="pb5" v-html="data.timeframe"></div>
-        <div class="fw7 pb3 ttu">What I did</div>
+        <div class="fw7 pb3 ttu">What I was/did</div>
         <div class="pb3" v-for="r in data.roles" :key="r"><span v-html="r"></span></div>
     </div>
     </div>
