@@ -82,7 +82,7 @@
           Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
           results page and informed a redesign that proved to yield significantly better usability.
         </project-section-text>
-        <prev-next prevTitle="HoloBuilder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
+        <prev-next prevTitle="Holo&shy;Builder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
         <my-footer></my-footer>
       </div>
     </div>

@@ -77,7 +77,7 @@
           range of scenarios.<br /><br />
           Overall, setting up 360Anywhere requires only a laptop, a 360° camera, and (optionally) a projector.
         </project-section-text>
-        <prev-next prevTitle="" prevLink="" nextTitle="GestureWiz" nextLink="gesturewiz"></prev-next>
+        <prev-next prevTitle="" prevLink="" nextTitle="Gesture&shy;Wiz" nextLink="gesturewiz"></prev-next>
         <my-footer></my-footer>
       </div>
     </div>

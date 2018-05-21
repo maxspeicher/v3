@@ -89,7 +89,7 @@
           a task force for writing a patent and developing the first version of the HoloBuilder brand book,
           which defined the company's branding and CI.
         </project-section-text>
-        <prev-next prevTitle="GestureWiz" prevLink="gesturewiz" nextTitle="Search Interaction Optimization" nextLink="sio"></prev-next>
+        <prev-next prevTitle="Gesture&shy;Wiz" prevLink="gesturewiz" nextTitle="Search Interaction Optimization" nextLink="sio"></prev-next>
         <my-footer></my-footer>
       </div>
     </div>
