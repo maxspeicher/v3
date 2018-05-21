@@ -69,7 +69,7 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             I <i class="fas fa-heart"></i> minimalism &amp; typography.<br /><br />
 
-            In my opionion, one of my biggest strenghts is probably that I'm a quick learner, which has helped
+            In my opinion, one of my biggest strengths is probably that I'm a quick learner, which has helped
             me a lot in my career so far.<br /><br />
 
             Apart from everything above, I'm also a passionate <span class="fw5">Ringtennis</span> player.
@@ -77,7 +77,7 @@
             the Germany Ringtennis National Team from 2010 till 2018.
 
             <div class="f4 mt5 mt6-ns tl">
-              <a class="fw4" href="https://www.linkedin.com/in/maximilianspeicher/">More on LinkedId <i class="fab fa-linkedin"></i></a>
+              <a class="fw4" href="https://www.linkedin.com/in/maximilianspeicher/">More on LinkedIn <i class="fab fa-linkedin"></i></a>
               &nbsp;
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>

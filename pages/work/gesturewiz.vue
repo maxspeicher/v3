@@ -69,7 +69,7 @@
           well suited for conflict resolution of ambiguous gestures as well as the support it can provide for
           the prototyping process of gesture-based apps.
         </project-section-text>
-        <prev-next prevTitle="360Anywhere" prevLink="360anywhere" nextTitle="HoloBuilder" nextLink="holobuilder"></prev-next>
+        <prev-next prevTitle="360Any&shy;where" prevLink="360anywhere" nextTitle="HoloBuilder" nextLink="holobuilder"></prev-next>
         <my-footer></my-footer>
       </div>
     </div>
