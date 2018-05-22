@@ -122,6 +122,21 @@
         border: 0;
     }
 
+    .important-link {
+        margin-right: .5em;
+        transition: all .25s;
+    }
+
+    .important-link:hover {
+        margin-right: 0em;
+        transition: all .25s;
+    }
+
+    .indent {
+        padding-left: .5em;
+        text-indent: -.5em;
+    }
+
     .menu a:hover {
         border-bottom: 1px currentColor solid;
         text-decoration: none;

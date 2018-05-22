@@ -77,7 +77,7 @@
             the Germany Ringtennis National Team from 2010 till 2018.
 
             <div class="f4 mt5 mt6-ns tl">
-              <a class="fw4" href="https://www.linkedin.com/in/maximilianspeicher/">More on LinkedIn <i class="fab fa-linkedin"></i></a>
+              <a class="dim fw4 important-link" href="https://www.linkedin.com/in/maximilianspeicher/">More on LinkedIn <i class="fab fa-linkedin"></i></a>
               &nbsp;
               <i class="fas fa-long-arrow-alt-right"></i>
             </div>

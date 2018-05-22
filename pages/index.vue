@@ -116,7 +116,7 @@
           </div>
         </div>
         <div class="f4 tl">
-          <a class="fw4" href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more</a>
+          <a class="dim fw4 important-link" href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more</a>
           &nbsp;
           <i class="fas fa-long-arrow-alt-right"></i>
         </div>
