@@ -13,6 +13,11 @@
             At the University of Michigan School of Information, we are reinventing UX design itself.
           </span>
         </div>
+        <div class="f5 f4-ns fw3 mt5">
+          A website is never finished. Therefore, I keep feedback &amp; to-dos in
+          <a class="dim fw4 important-link" href="https://trello.com/b/OV7i5MHH/maxspeichercom">a public Trello board <i class="fab fa-trello"></i></a>
+          &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+        </div>
       </div>
       <div class="mt5 mt6-ns">
         <a id="work" name="work"></a>
@@ -117,8 +122,7 @@
         </div>
         <div class="f4 tl">
           <a class="dim fw4 important-link" href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more</a>
-          &nbsp;
-          <i class="fas fa-long-arrow-alt-right"></i>
+          &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
         </div>
       </div>
       <my-footer></my-footer>
