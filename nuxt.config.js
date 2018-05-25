@@ -18,7 +18,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio of Maximilian Speicher.' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: path + 'favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: path + 'M.png' },
       { rel: 'stylesheet', href: 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css' },
       { rel: 'stylesheet', href: path + 'css/main.css' },
     ],

@@ -16,10 +16,10 @@
         </span>
         <!-- This has to be manually adjusted to match the root dir. -->
         <span class="dib mb2-m pl4">
-          <a href="/#work">Work</a>&nbsp;
+          <nuxt-link to="/#work" @click.native="smoothScroll" data-scroll-to="#work">Work</nuxt-link>&nbsp;
         </span>
         <span class="dib pl4">
-          <a href="/#publications">Publications</a>&nbsp;
+          <nuxt-link to="/#publications" @click.native="smoothScroll" data-scroll-to="#publications">Publications</nuxt-link>&nbsp;
         </span>
       </div>
   </header>
@@ -40,6 +40,15 @@ export default {
     
       document.querySelector(".m").style.transform = "rotateZ(" + this.mRotation + "deg)";
       document.querySelector(".s").style.transform = "rotateZ(" + this.sRotation + "deg)";
+    },
+    smoothScroll(e) {
+      e.preventDefault();
+
+      const id = e.target.dataset.scrollTo;
+
+      document.querySelector(id).scrollIntoView({ 
+        behavior: "smooth"
+      });
     }
   }
 }
