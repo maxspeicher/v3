@@ -119,6 +119,7 @@ export default {
     process: {
       teamSize: "roughly 20",
       timeframe: "Mar 2015&ndash;Feb 2017",
+      affiliation: "bitstars GmbH",
       roles: ["VP of Customer &amp; Data Analytics &amp; Optimization", "Team Lead", "Strategy", "User Research", "Interaction Design", "Product Management", "Branding &amp; CI"],
       process: {
         "Discovery": ["field research", "interviews", "meetups", "personas", "customer journeys"],

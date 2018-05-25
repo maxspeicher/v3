@@ -112,6 +112,7 @@ export default {
     process: {
       teamSize: "roughly 30",
       timeframe: "Jun 2012&ndash;Dec 2014",
+      affiliation: "Unister GmbH",
       roles: ["Industrial Ph.D. Student", "User Research", "System Design + Architecture", "Project Management", "Code"],
       process: {
         "Discovery": ["literature review", "competitive analysis", "field research", "interviews"],

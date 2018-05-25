@@ -94,6 +94,7 @@ export default {
     process: {
       teamSize: "2",
       timeframe: "Sep 2011&ndash;Mar 2012",
+      affiliation: "ETH Zurich",
       roles: ["Master's Student", "User Research", "System Design + Architecture", "Code"],
       process: {
         "Discovery": ["literature review", "interviews"],

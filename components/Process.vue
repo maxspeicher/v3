@@ -3,6 +3,7 @@
     <div class="fl pa3 w-100 w-50-ns">
     <div class="ba b--white pa3">
         <div class="fw7 pb3 ttu">Setting</div>
+        <div class="indent pb3">{{ data.affiliation }}</div>
         <div class="pb3">Team of <span class="fw7">{{ data.teamSize }}</span></div>
         <div class="pb5" v-html="data.timeframe"></div>
         <div class="fw7 pb3 ttu">What I was/did</div>

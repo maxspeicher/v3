@@ -107,6 +107,7 @@ export default {
     process: {
       teamSize: 5,
       timeframe: "Jun&ndash;Sep 2017",
+      affiliation: "University of Michigan",
       roles: ["Team/Project Lead", "User Research", "System Design + Architecture"],
       process: {
         "Discovery": ["literature review", "competitive analysis"],
