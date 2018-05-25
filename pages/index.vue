@@ -25,11 +25,11 @@
           Selected Work.
         </div>
         <div class="cf">
-          <box id="360anywhere" title="360&shy;Any&shy;where" workplace="U of Michigan"></box>
-          <box id="gesturewiz" title="Gesture&shy;Wiz" workplace="U of Michigan"></box>
-          <box id="holobuilder" title="Holo&shy;Builder" workplace="bitstars GmbH"></box>
-          <box id="sio" title="Search<br />Inter&shy;action<br />Optimi&shy;zation" workplace="Unister GmbH"></box>
-          <box id="w3touch" title="W3Touch" workplace="ETH Zurich"></box>
+          <box id="360anywhere" title="360&shy;Any&shy;where" topic="Collaboration in 360° &amp; AR."></box>
+          <box id="gesturewiz" title="Gesture&shy;Wiz" topic="Rapid gesture prototyping."></box>
+          <box id="holobuilder" title="Holo&shy;Builder" topic="An AR/VR web platform."></box>
+          <box id="sio" title="Search<br />Inter&shy;action<br />Optimi&shy;zation" topic="My Ph.D. thesis."></box>
+          <box id="w3touch" title="W3Touch" topic="Website adaptation for touch."></box>
           <div class="fl pa2 w-100 w-50-m w-third-l">
             <div class="box f2 f3-m fw6 w-100">
               <div class="box-padding"></div>
@@ -80,7 +80,7 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, M. Nebeling
-              &bull; <span class="fw4">CHI '18</span> &bull; #UX design
+              &bull; <span class="fw4">CHI '18</span> &bull; #UXdesign
             </div>
           </div>
           <div class="mb4">
@@ -89,7 +89,7 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
-              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="fas fa-trophy"></i> &bull; #UX design
+              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="fas fa-trophy"></i> &bull; #UXdesign #usability
             </div>
           </div>
           <div class="mb4">
