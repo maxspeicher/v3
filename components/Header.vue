@@ -46,9 +46,11 @@ export default {
 
       const id = e.target.dataset.scrollTo;
 
-      document.querySelector(id).scrollIntoView({ 
-        behavior: "smooth"
-      });
+      if (document.querySelector(id)) {
+        document.querySelector(id).scrollIntoView({ 
+          behavior: "smooth"
+        });
+      }
     }
   }
 }

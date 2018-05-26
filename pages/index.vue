@@ -89,7 +89,7 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
-              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="fas fa-trophy"></i> &bull; #UXdesign #usability
+              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="silver fas fa-trophy" title="Best Paper Honorable Mention Award"></i> &bull; #UXdesign #usability
             </div>
           </div>
           <div class="mb4">
@@ -117,6 +117,15 @@
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
               &bull; <span class="fw4">ICWE '14</span> &bull; #usability
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="f4 fw4 lh-title mb3">
+              <a class="dim" href="">Search Interaction Optimization: A Human-Centered Design Approach</a>
+            </div>
+            <div class="lh-copy">
+              <span class="fw4">M. Speicher</span>
+              &bull; <span class="fw4">Ph.D. Thesis</span> &bull; #UXdesign #usability #searchEngines
             </div>
           </div>
         </div>
