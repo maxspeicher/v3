@@ -7,12 +7,12 @@
       <div class="on-top">
         <my-header></my-header>
         <project-summary title="360Anywhere">
-          In this research project, we wanted to merge the physical and digital worlds by providing a
+          In this research project, we merge the physical and digital worlds by providing a
           collaboration tool that combines 360° video and augmented reality.
           Imagine a meeting room that is live-streamed to remote meeting participants in 360° and whatever
           they draw into the live stream appears in the actual room.<br /><br />
-          A full research paper about 360Anywhere has been accepted at
-          <a href="http://eics.acm.org/2018/">EICS 2018</a>.
+          A <a href="/pdf/360anywhere.pdf">research paper</a> about 360Anywhere has been accepted at the 2018
+          ACM Symposium on Engineering Interactive Computing Systems.
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Identifying Challenges.">
@@ -29,7 +29,12 @@
           </ul>
         </project-section-text>
         <project-section>
-          <img src="~/assets/img/360anywhere/360anywhere-mockups.png" />
+          <img class="pa2" src="~/assets/img/360anywhere/360anywhere-mockups.png" />
+          <div class="f6 fw4 lh-copy pa2">
+            The UI for collaborators, showing the 360° stream in which they can look around freely.
+            The laptop screenshot (left) shows a <q>gaze cone</q> indicating where the mobile user (right) is looking.
+            This is one way to solve challenge 2 above.
+          </div>
         </project-section>
         <project-section-text title="Finding a Solution.">
           Making use of standard methods&mdash;<span class="fw4 small-caps">sketching</span>,
@@ -45,9 +50,16 @@
         <project-section class="cf">
           <div class="fl pa2 w-100 w-50-ns">
             <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-2.jpg" />
+            <div class="fl f6 fw4 lh-copy pa2 w-100">
+              We display things that are drawn into the 360° stream directly in the room using
+              projective augmented reality.
+            </div>
           </div>
           <div class="fl pa2 w-100 w-50-ns">
             <img class="shadow" src="~/assets/img/360anywhere/360anywhere-detail-3.jpg" />
+            <div class="fl f6 fw4 lh-copy pa2 w-100">
+              The collaborator UI, showing the projective augmented reality region with a blue outline.
+            </div>
           </div>
         </project-section>
         <project-section-text title="Building and Testing 360&shy;Any&shy;where.">
@@ -77,6 +89,11 @@
           range of scenarios.<br /><br />
           Overall, setting up 360Anywhere requires only a laptop, a 360° camera, and (optionally) a projector.
         </project-section-text>
+        <project-section>
+          <a class="bw0 dim pa2" href="/pdf/360anywhere.pdf">
+            <img class="shadow" src="~/assets/img/360anywhere/paper.png" />
+          </a>
+        </project-section>
         <prev-next prevTitle="" prevLink="" nextTitle="Gesture&shy;Wiz" nextLink="gesturewiz"></prev-next>
         <my-footer></my-footer>
       </div>

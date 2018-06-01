@@ -14,8 +14,8 @@
           increased based on the average zooming factor.
           This creates <q>self-repairing</q> websites that adjust over time and at the same time highlights
           the most important information.<br /><br />
-          A <a href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">full research paper</a>
-          about W3Touch has been published at the 2018 ACM CHI Conference.
+          A <a href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">research paper</a>
+          about W3Touch has been published at the 2013 ACM Conference on Human Factors in Computing Systems.
         </project-summary>
         <process v-bind:data="process"></process>  
         <project-section-text title="Identifying Common Usability Issues.">
@@ -44,15 +44,22 @@
           Afterwards, the W3Touch <span class="fw4 small-caps">prototype</span> was revised according to the
           collected user feedback.
         </project-section-text>
-        <project-section class="cf dt">
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
-            <img class="shadow" src="~/assets/img/w3touch/step-1.jpg" />
+        <project-section>
+          <div class="cf dt">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/w3touch/step-1.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/w3touch/step-2.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/w3touch/step-3.jpg" />
+            </div>
           </div>
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
-            <img class="shadow" src="~/assets/img/w3touch/step-2.jpg" />
-          </div>
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
-            <img class="shadow" src="~/assets/img/w3touch/step-3.jpg" />
+          <div class="f6 fw4 lh-copy pb2 pt2">
+            The three-step process of W3Touch: First, a user interacts with a website on a mobile device.
+            Second, the system records taps that potentially missed a link and where the user zoomed.
+            Finally, the website is automatically adapted based on these interactions.
           </div>
         </project-section>
         <project-section-text title="Great Success.">
@@ -64,6 +71,11 @@
           designed for mobile, which is a promising result given the relatively small design effort based on
           only two core usability issues.
         </project-section-text>
+        <project-section>
+          <a class="bw0 dim pa2" href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">
+            <img class="shadow" src="~/assets/img/w3touch/paper.png" />
+          </a>
+        </project-section>
         <prev-next prevTitle="Search Interaction Optimization" prevLink="sio"></prev-next>
         <my-footer></my-footer>
       </div>

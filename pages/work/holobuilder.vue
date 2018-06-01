@@ -13,7 +13,16 @@
           tours.
           I joined the project in March 2015 and helped grow the product in a variety of roles for two years.
         </project-summary>
-        <process v-bind:data="process"></process>  
+        <process v-bind:data="process"></process>
+        <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
+          <div class="pa2 video-wrapper">
+            <iframe class="shadow" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CAJZ2XHOySc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+          <div class="f6 fw4 lh-copy pa2">
+            We recorded this a month after I joined the project and used it as the header background of
+            HoloBuilder's very first landing page (inspired by Wikiwand).
+          </div>
+        </project-section>
         <project-section-text title="Discovering the Target User.">
           When I joined <span class="script">HoloBuilder</span> (in their Aachen office), the project was
           still aimed at whoever owned a 360° camera or simply wanted to create AR/VR content online without
@@ -33,7 +42,11 @@
           estate user, for which we designed different landing pages.
         </project-section-text>
         <project-section>
-          <img src="~/assets/img/holobuilder/holobuilder-mockup-1.png" />
+          <img class="pa2" src="~/assets/img/holobuilder/holobuilder-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pa2">
+            Starting in October 2015, HoloBuilder targeted construction professionals.
+            This was accompanied by a complete re-branding.
+          </div>
         </project-section>
         <project-section-text title="Designing the Floor Plan Feature.">
           After construction users had been identified as the primary target audience and the future strategy
@@ -57,12 +70,17 @@
           among other things.
           It is still one of the core features of HoloBuilder.
         </project-section-text>
-        <project-section class="cf dt">
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
-            <img class="shadow" src="~/assets/img/holobuilder/holobuilder-sketch-1.jpg" />
+        <project-section>
+          <div class="cf dt">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+              <img class="shadow" src="~/assets/img/holobuilder/holobuilder-sketch-1.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+              <img src="~/assets/img/holobuilder/holobuilder-mockup-2.png" />
+            </div>
           </div>
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
-            <img src="~/assets/img/holobuilder/holobuilder-mockup-2.png" />
+          <div class="f6 fw4 lh-copy pa2">
+            The floor plan feature for construction professionals&mdash;from sketch to MVP.
           </div>
         </project-section>
         <project-section-text title="Company-wide Data Analytics.">

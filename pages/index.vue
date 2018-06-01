@@ -54,7 +54,7 @@
                 <i class="fas fa-certificate"></i>
                 <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">NEW</span>
               </span>
-              <a class="dim" href="http://eics.acm.org/2018/">360Anywhere: Mobile Ad-hoc Collaboration in Any Environment using 360 Video and Augmented Reality</a>
+              <a class="dim" href="/pdf/360anywhere.pdf">360Anywhere: Mobile Ad-hoc Collaboration in Any Environment using 360 Video and Augmented Reality</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, J. Cao, A. Yu, H. Zhang, M. Nebeling
@@ -67,7 +67,7 @@
                 <i class="fas fa-certificate"></i>
                 <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">NEW</span>
               </span>
-              <a class="dim" href="http://eics.acm.org/2018/">XD-AR: Challenges and Opportunities in Cross-Device Augmented Reality Application Development</a>
+              <a class="dim" href="/pdf/xd-ar.pdf">XD-AR: Challenges and Opportunities in Cross-Device Augmented Reality Application Development</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, B.D. Hall, A. Yu, B. Zhang, H. Zhang, J. Nebeling, M. Nebeling

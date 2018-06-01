@@ -37,6 +37,10 @@
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/interview-setup.jpg" />
+          <div class="f6 fw4 lh-copy pb2 pt2">
+            I conducted expert interviews to create a new usability questionnaire that was derived from
+            the existing ISO definition, which the experts broke down into more low-level features.
+          </div>
         </project-section>
         <project-section-text title="Predicting the Relevance of Search Results from User Interactions.">
           In search engines, relevance (or informativeness) is a crucial usability factor.
@@ -51,7 +55,13 @@
           and predictions were ultimately incorporated into BlueKiwi.
         </project-section-text>
         <project-section>
-          <img src="~/assets/img/sio/sio-mockup-1.png" />
+          <img class="pa2" src="~/assets/img/sio/sio-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pb2 pt2">
+            WaPPU enables A/B tests based on a usability score and the seven items of my new usability
+            questionnaire.
+            The traffic light on the right indicates whether interface B is better or worse with
+            statistical significance.
+          </div>
         </project-section>
         <project-section-text title="Usability-based Split Testing: A New Metho&shy;do&shy;logy.">
           Next, I applied the insights gained from relevance prediction to usability in general.
@@ -72,6 +82,10 @@
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/SERP-comparison.jpg" />
+          <div class="f6 fw4 lh-copy pb2 pt2">
+            The nine optimizations proposed by S.O.S. for BlueKiwi's search results page.
+            The usability score of the website improved from 59.9% to 67.5% after the redesign.
+          </div>
         </project-section>
         <project-section-text title="Optimizing BlueKiwi.">
           Based on a <span class="fw4 small-caps">competitive analysis</span> of existing search engines and
@@ -82,6 +96,11 @@
           Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
           results page and informed a redesign that proved to yield significantly better usability.
         </project-section-text>
+        <project-section>
+          <a class="bw0 dim pa2" href="http://www.qucosa.de/fileadmin/data/qucosa/documents/20810/Dissertation_Archivierung_Speicher.pdf">
+            <img class="shadow" src="~/assets/img/sio/thesis.png" />
+          </a>
+        </project-section>
         <prev-next prevTitle="Holo&shy;Builder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
         <my-footer></my-footer>
       </div>

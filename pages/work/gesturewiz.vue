@@ -10,24 +10,41 @@
           GestureWiz is a rapid prototyping environment for designers to create and test arbitrary, 
           multi-modal gestures without the need for programming or training data.
           <br /><br />
-          A <a href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">full research paper</a>
-          about GestureWiz has been published at the 2018 ACM CHI Conference.
+          A <a href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">research paper</a>
+          about GestureWiz has been published at the 2018 ACM Conference on Human Factors in Computing Systems.
         </project-summary>
-        <process v-bind:data="process"></process>  
+        <process v-bind:data="process"></process>
+        <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
+          <div class="video-wrapper">
+            <iframe class="shadow" width="560" height="315" src="https://www.youtube-nocookie.com/embed/AH4I-6k8Tq0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </project-section>
         <project-section-text title="Human-Powered Gestures.">
-          <span class="script">GestureWiz</span> lets designers create and test arbitrary gestures without
-          training data or the need to write code, simply by using a webcam or Microsoft Kinect.
-          In step 1, the designer records and saves a set of template gestures.
-          Then, they record a gesture that should be recognized, which is automatically posted to
+          Designing and testing gesture-based applications is far from trivial, mostly because there is no easy
+          way to create arbitrary, multi-modal gestures.
+          Existing solutions usually require coding skills, lots of training data, or are restricted to just one
+          modality (e.g., touch).<br /><br />
+          <span class="script">GestureWiz</span> lets designers create and test gestures without
+          training data or the need to write code.
+          Say, a designer wants to prototype mid-air gestures for a HoloLens application.
+          First, she records and saves a set of template gestures, simply by using a webcam or Microsoft Kinect.
+          Then, she records a gesture that should be recognized, which is automatically posted to
           <a href="https://www.mturk.com/">Amazon Mechanical Turk</a>.
           The recruited crowd workers compare the gesture to the template set and select the correct
-          match&mdash;simple as that.
+          match&mdash;simple as that.<br /><br />
           We discovered the need for such a system through a <span class="fw4 small-caps">literature review</span>
           and <span class="fw4 small-caps">competitive analysis</span> of solutions like $1, JackKnife, and
           Zensors, none of which provides designers with the benefits of GestureWiz.
         </project-section-text>
         <project-section>
-          <img src="~/assets/img/gesturewiz/gesturewiz-mockup-1.png" />
+          <img class="pa2" src="~/assets/img/gesturewiz/gesturewiz-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pa2">
+            The UI for designers to record and test sets of multi-modal gestures.
+            The numbers below the individual gestures on the right, which are shown as animated GIFs, provide
+            information about recognition accuracy and latency.
+            The star on the left is a touch gesture to be recognized.
+            The green outline shows the selection of the human recognizer.
+          </div>
         </project-section>
         <project-section-text title="An Interface for Crowd Workers.">
           We created <span class="fw4 small-caps">sketches</span>,
@@ -44,11 +61,18 @@
           designers, who we asked to create and test a gesture set for a slideshow application.
         </project-section-text>
         <project-section class="cf dt">
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
-            <img class="shadow" src="~/assets/img/gesturewiz/gesturewiz-sketch.jpg" />
+          <div class="cf dt">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+              <img class="shadow" src="~/assets/img/gesturewiz/gesturewiz-sketch.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+              <img src="~/assets/img/gesturewiz/gesturewiz-mockup-2.png" />
+            </div>
           </div>
-          <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
-            <img src="~/assets/img/gesturewiz/gesturewiz-mockup-2.png" />
+          <div class="f6 fw4 lh-copy pa2">
+            The UI for the human recognizers&mdash;from sketch to high-fidelity prototype.
+            It introduces a gamification feature as a response to relatively poor accuracy and latency in
+            our first round of studies.
           </div>
         </project-section>
         <project-section-text title="Improving GestureWiz.">
@@ -69,6 +93,11 @@
           well suited for conflict resolution of ambiguous gestures as well as the support it can provide for
           the prototyping process of gesture-based apps.
         </project-section-text>
+        <project-section>
+          <a class="bw0 dim pa2" href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">
+            <img class="shadow" src="~/assets/img/gesturewiz/paper.png" />
+          </a>
+        </project-section>
         <prev-next prevTitle="360Any&shy;where" prevLink="360anywhere" nextTitle="Holo&shy;Builder" nextLink="holobuilder"></prev-next>
         <my-footer></my-footer>
       </div>
