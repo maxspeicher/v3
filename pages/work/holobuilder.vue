@@ -15,10 +15,10 @@
         </project-summary>
         <process v-bind:data="process"></process>
         <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
-          <div class="pa2 video-wrapper">
+          <div class="video-wrapper">
             <iframe class="shadow" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CAJZ2XHOySc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
-          <div class="f6 fw4 lh-copy pa2">
+          <div class="f6 fw4 lh-copy pb2 pt3">
             We recorded this a month after I joined the project and used it as the header background of
             HoloBuilder's very first landing page (inspired by Wikiwand).
           </div>
@@ -42,8 +42,8 @@
           estate user, for which we designed different landing pages.
         </project-section-text>
         <project-section>
-          <img class="pa2" src="~/assets/img/holobuilder/holobuilder-mockup-1.png" />
-          <div class="f6 fw4 lh-copy pa2">
+          <img src="~/assets/img/holobuilder/holobuilder-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pb2 pt3">
             Starting in October 2015, HoloBuilder targeted construction professionals.
             This was accompanied by a complete re-branding.
           </div>

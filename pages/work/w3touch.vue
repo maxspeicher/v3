@@ -73,7 +73,7 @@
         </project-section-text>
         <project-section>
           <a class="bw0 dim pa2" href="https://www.researchgate.net/publication/249009504_W3touch_Metrics-based_Web_Page_Adaptation_for_Touch">
-            <img class="shadow" src="~/assets/img/w3touch/paper.png" />
+            <img class="paper-img shadow" src="~/assets/img/w3touch/paper.png" />
           </a>
         </project-section>
         <prev-next prevTitle="Search Interaction Optimization" prevLink="sio"></prev-next>

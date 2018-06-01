@@ -29,8 +29,8 @@
           </ul>
         </project-section-text>
         <project-section>
-          <img class="pa2" src="~/assets/img/360anywhere/360anywhere-mockups.png" />
-          <div class="f6 fw4 lh-copy pa2">
+          <img src="~/assets/img/360anywhere/360anywhere-mockups.png" />
+          <div class="f6 fw4 lh-copy pb2 pt3">
             The UI for collaborators, showing the 360° stream in which they can look around freely.
             The laptop screenshot (left) shows a <q>gaze cone</q> indicating where the mobile user (right) is looking.
             This is one way to solve challenge 2 above.
@@ -91,7 +91,7 @@
         </project-section-text>
         <project-section>
           <a class="bw0 dim pa2" href="/pdf/360anywhere.pdf">
-            <img class="shadow" src="~/assets/img/360anywhere/paper.png" />
+            <img class="paper-img shadow" src="~/assets/img/360anywhere/paper.png" />
           </a>
         </project-section>
         <prev-next prevTitle="" prevLink="" nextTitle="Gesture&shy;Wiz" nextLink="gesturewiz"></prev-next>

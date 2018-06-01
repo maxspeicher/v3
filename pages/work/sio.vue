@@ -37,7 +37,7 @@
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/interview-setup.jpg" />
-          <div class="f6 fw4 lh-copy pb2 pt2">
+          <div class="f6 fw4 lh-copy pb2 pt3">
             I conducted expert interviews to create a new usability questionnaire that was derived from
             the existing ISO definition, which the experts broke down into more low-level features.
           </div>
@@ -55,8 +55,8 @@
           and predictions were ultimately incorporated into BlueKiwi.
         </project-section-text>
         <project-section>
-          <img class="pa2" src="~/assets/img/sio/sio-mockup-1.png" />
-          <div class="f6 fw4 lh-copy pb2 pt2">
+          <img src="~/assets/img/sio/sio-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pb2 pt3">
             WaPPU enables A/B tests based on a usability score and the seven items of my new usability
             questionnaire.
             The traffic light on the right indicates whether interface B is better or worse with
@@ -82,7 +82,7 @@
         </project-section-text>
         <project-section>
           <img class="w-75-l shadow" src="~/assets/img/sio/SERP-comparison.jpg" />
-          <div class="f6 fw4 lh-copy pb2 pt2">
+          <div class="f6 fw4 lh-copy pb2 pt3">
             The nine optimizations proposed by S.O.S. for BlueKiwi's search results page.
             The usability score of the website improved from 59.9% to 67.5% after the redesign.
           </div>
@@ -98,7 +98,7 @@
         </project-section-text>
         <project-section>
           <a class="bw0 dim pa2" href="http://www.qucosa.de/fileadmin/data/qucosa/documents/20810/Dissertation_Archivierung_Speicher.pdf">
-            <img class="shadow" src="~/assets/img/sio/thesis.png" />
+            <img class="paper-img shadow" src="~/assets/img/sio/thesis.png" />
           </a>
         </project-section>
         <prev-next prevTitle="Holo&shy;Builder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>

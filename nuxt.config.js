@@ -15,7 +15,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'theme-color', content: '#111111' },
+      { name: 'theme-color', content: 'rgb(44, 62, 80)' },
       { hid: 'description', name: 'description', content: 'Portfolio of Maximilian Speicher.' }
     ],
     link: [

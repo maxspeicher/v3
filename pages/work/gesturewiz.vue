@@ -37,8 +37,8 @@
           Zensors, none of which provides designers with the benefits of GestureWiz.
         </project-section-text>
         <project-section>
-          <img class="pa2" src="~/assets/img/gesturewiz/gesturewiz-mockup-1.png" />
-          <div class="f6 fw4 lh-copy pa2">
+          <img src="~/assets/img/gesturewiz/gesturewiz-mockup-1.png" />
+          <div class="f6 fw4 lh-copy pb2 pt3">
             The UI for designers to record and test sets of multi-modal gestures.
             The numbers below the individual gestures on the right, which are shown as animated GIFs, provide
             information about recognition accuracy and latency.
@@ -95,7 +95,7 @@
         </project-section-text>
         <project-section>
           <a class="bw0 dim pa2" href="https://www.researchgate.net/publication/324665021_GestureWiz_A_Human-Powered_Gesture_Design_Environment_for_User_Interface_Prototypes">
-            <img class="shadow" src="~/assets/img/gesturewiz/paper.png" />
+            <img class="paper-img shadow" src="~/assets/img/gesturewiz/paper.png" />
           </a>
         </project-section>
         <prev-next prevTitle="360Any&shy;where" prevLink="360anywhere" nextTitle="Holo&shy;Builder" nextLink="holobuilder"></prev-next>

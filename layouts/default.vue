@@ -142,6 +142,10 @@
         text-decoration: none;
     }
 
+    .paper-img {
+        max-width: 90%;
+    }
+
     .script {
         font-family: Pacifico;
     }
