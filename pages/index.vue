@@ -135,6 +135,7 @@
         </div>
       </div>
       <my-footer></my-footer>
+      <back-to-top></back-to-top>
     </div>
   </div>
 </template>
@@ -145,6 +146,7 @@ import DATA from "~/data/projects.js"
 import MyHeader from "~/components/Header.vue"
 import MyFooter from "~/components/Footer.vue"
 import Box from "~/components/Box.vue"
+import BackToTop from "~/components/BackToTop.vue"
 
 export default {
   asyncData(context) {
@@ -154,7 +156,8 @@ export default {
   components: {
     MyHeader,
     MyFooter,
-    Box
+    Box,
+    BackToTop
   },
   data: () => ({
     isMoreDisplayed: false

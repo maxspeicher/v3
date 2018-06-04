@@ -96,6 +96,7 @@
         </project-section>
         <prev-next prevTitle="" prevLink="" nextTitle="Gesture&shy;Wiz" nextLink="gesturewiz"></prev-next>
         <my-footer></my-footer>
+        <back-to-top></back-to-top>
       </div>
     </div>
   </div>
@@ -109,6 +110,7 @@ import Process from "~/components/Process.vue"
 import ProjectSectionText from "~/components/SectionText.vue"
 import ProjectSection from "~/components/Section.vue"
 import PrevNext from "~/components/PrevNext.vue"
+import BackToTop from "~/components/BackToTop.vue"
 
 export default {
   components: {
@@ -118,7 +120,8 @@ export default {
     Process,
     ProjectSectionText,
     ProjectSection,
-    PrevNext
+    PrevNext,
+    BackToTop
   },
   data: () => ({
     process: {
@@ -145,6 +148,10 @@ export default {
   .template-container >>> a {
     color: ivory;
   }
+
+  .template-container >>> .color-background {
+    color: rgb(44, 62, 80);
+  }
   
   .bg-image {
     background-image: url(~/assets/img/360anywhere/360anywhere.jpg);
@@ -152,5 +159,15 @@ export default {
 
   .gradient {
     background-image: linear-gradient(rgba(44, 62, 80, 0.0) 30%, rgb(44, 62, 80, 1.0));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(left, DeepPink, #eeeeee);
+    background: -webkit-linear-gradient(left, DeepPink, #eeeeee);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
   }
 </style>

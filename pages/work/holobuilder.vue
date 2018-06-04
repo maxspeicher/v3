@@ -14,7 +14,7 @@
           I joined the project in March 2015 and helped grow the product in a variety of roles for two years.
         </project-summary>
         <process v-bind:data="process"></process>
-        <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
+        <!-- <project-section style="margin-left: auto; margin-right: auto; max-width: 100%; width: 560px;">
           <div class="video-wrapper">
             <iframe class="shadow" width="560" height="315" src="https://www.youtube-nocookie.com/embed/CAJZ2XHOySc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
@@ -22,18 +22,38 @@
             We recorded this a month after I joined the project and used it as the header background of
             HoloBuilder's very first landing page (inspired by Wikiwand).
           </div>
+        </project-section> -->
+        <project-section>
+          <div class="cf dt">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/holobuilder/persona-1.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/holobuilder/persona-2.jpg" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/holobuilder/persona-3.jpg" />
+            </div>
+          </div>
+          <div class="f6 fw4 lh-copy pa2">
+            Persona drafts from May 2015, synthesized from early-stage interviews, field research, and usage
+            data from HoloBuilder's alpha version.
+            Persona #3 already hints slightly into the direction of real estate and construction professionals.
+          </div>
         </project-section>
         <project-section-text title="Discovering the Target User.">
           When I joined <span class="script">HoloBuilder</span> (in their Aachen office), the project was
           still aimed at whoever owned a 360° camera or simply wanted to create AR/VR content online without
           the programming effort.
-          Therefore, in the first eight months, we conducted a lot of
+          A first MVP&mdash;the alpha version of the web platform&mdash;had just gone online.
+          In the first eight months, we conducted a lot of
           <span class="fw4 small-caps">field research</span> (e.g., in local businesses for which we created
           virtual tours), <span class="fw4 small-caps">interviews</span>, and
           <span class="fw4 small-caps">meetups</span> in order to observe how and why people use the product
           and to discover suitable use cases.
-          From these insights, we synthesized <span class="fw4 small-caps">customer journeys</span> as well as
-          various <span class="fw4 small-caps">personas</span> for different kinds of 360° camera owners, e.g.,
+          From these insights, we synthesized and iterated on
+          <span class="fw4 small-caps">customer journeys</span> as well as various
+          <span class="fw4 small-caps">personas</span> for different kinds of 360° camera owners, e.g.,
           professional photographers and tech enthusiasts.<br /><br />
           Ultimately, in October 2015, we discovered that virtual tours created with HoloBuilder are
           particularly useful to real estate agents, while the CEO (in San Francisco) attracted the interest of
@@ -72,15 +92,18 @@
         </project-section-text>
         <project-section>
           <div class="cf dt">
-            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
               <img class="shadow" src="~/assets/img/holobuilder/holobuilder-sketch-1.jpg" />
             </div>
-            <div class="fl fn-ns dtc pa2 w-100 v-mid w-50-ns">
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
+              <img class="shadow" src="~/assets/img/holobuilder/floorplan-wireframe.png" />
+            </div>
+            <div class="fl fn-ns dtc pa2 w-100 v-mid w-third-ns">
               <img src="~/assets/img/holobuilder/holobuilder-mockup-2.png" />
             </div>
           </div>
           <div class="f6 fw4 lh-copy pa2">
-            The floor plan feature for construction professionals&mdash;from sketch to MVP.
+            The floor plan feature for construction professionals&mdash;from sketch to mockup to MVP.
           </div>
         </project-section>
         <project-section-text title="Company-wide Data Analytics.">
@@ -103,12 +126,20 @@
           In particular, the data provided by the pipeline was used for iterative improvements of the web
           platform based on <span class="fw4 small-caps">lean ux</span> principles.<br /><br />
 
+          In the first year, we could grow daily unique users from less than 100 to approximately 4,500.
+          Also, we could bring down customer acquisition cost from over $10 to less than $2.<br /><br />
+
           As is natural in startup environments, I also had a number of other responsibilities, such as leading
           a task force for writing a patent and developing the first version of the HoloBuilder brand book,
           which defined the company's branding and CI.
         </project-section-text>
+        <project-section>
+          <kpi icon="far fa-user-circle" number="4400%" description="increase in daily unique users in the first year"></kpi>
+          <kpi icon="fas fa-dollar-sign" number="80%" description="decrease in CAC in the first year"></kpi>
+        </project-section>
         <prev-next prevTitle="Gesture&shy;Wiz" prevLink="gesturewiz" nextTitle="Search Interaction Optimization" nextLink="sio"></prev-next>
         <my-footer></my-footer>
+        <back-to-top></back-to-top>
       </div>
     </div>
   </div>
@@ -122,6 +153,8 @@ import Process from "~/components/Process.vue"
 import ProjectSectionText from "~/components/SectionText.vue"
 import ProjectSection from "~/components/Section.vue"
 import PrevNext from "~/components/PrevNext.vue"
+import BackToTop from "~/components/BackToTop.vue"
+import Kpi from "~/components/Kpi.vue"
 
 export default {
   components: {
@@ -131,7 +164,9 @@ export default {
     Process,
     ProjectSectionText,
     ProjectSection,
-    PrevNext
+    PrevNext,
+    BackToTop,
+    Kpi
   },
   data: () => ({
     process: {
@@ -157,6 +192,10 @@ export default {
 
   .template-container >>> a {
     color: ivory;
+  }
+
+  .template-container >>> .color-background {
+    color: rgb(41, 128, 185);
   }
   
   .bg-image {

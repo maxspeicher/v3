@@ -39,7 +39,7 @@
           <img class="w-75-l shadow" src="~/assets/img/sio/interview-setup.jpg" />
           <div class="f6 fw4 lh-copy pb2 pt3">
             I conducted expert interviews to create a new usability questionnaire that was derived from
-            the existing ISO definition, which the experts broke down into more low-level features.
+            the existing ISO definition, which the experts broke down into lower-level features.
           </div>
         </project-section>
         <project-section-text title="Predicting the Relevance of Search Results from User Interactions.">
@@ -94,8 +94,15 @@
           proposes usability optimizations based on the usability measurements, such as <q>Your site is not
           well readable, you should consider changing your font size</q>.
           Finally, in another <span class="fw4 small-caps">user study</span>, S.O.S. was applied to BlueKiwi's
-          results page and informed a redesign that proved to yield significantly better usability.
+          results page and informed a redesign that proved to yield significantly better usability.<br /><br />
+
+          The <a href="/pdf/sos.pdf">research paper</a> about S.O.S. won a Best Paper Honorable Mention Award at
+          the 2015 ACM Conference on Human Factos in Computing Systems.
         </project-section-text>
+        <project-section>
+          <kpi icon="fas fa-arrow-up" number="+7.6%" description="overall usability after redesign"></kpi>
+          <kpi icon="fas fa-trophy" number="1" description="Best Paper Honorable Mention Award"></kpi>
+        </project-section>
         <project-section>
           <a class="bw0 dim pa2" href="http://www.qucosa.de/fileadmin/data/qucosa/documents/20810/Dissertation_Archivierung_Speicher.pdf">
             <img class="paper-img shadow" src="~/assets/img/sio/thesis.png" />
@@ -103,6 +110,7 @@
         </project-section>
         <prev-next prevTitle="Holo&shy;Builder" prevLink="holobuilder" nextTitle="W3Touch" nextLink="w3touch"></prev-next>
         <my-footer></my-footer>
+        <back-to-top></back-to-top>
       </div>
     </div>
   </div>
@@ -116,6 +124,8 @@ import Process from "~/components/Process.vue"
 import ProjectSectionText from "~/components/SectionText.vue"
 import ProjectSection from "~/components/Section.vue"
 import PrevNext from "~/components/PrevNext.vue"
+import BackToTop from "~/components/BackToTop.vue"
+import Kpi from "~/components/Kpi.vue"
 
 export default {
   components: {
@@ -125,7 +135,9 @@ export default {
     Process,
     ProjectSectionText,
     ProjectSection,
-    PrevNext
+    PrevNext,
+    BackToTop,
+    Kpi
   },
   data: () => ({
     process: {
@@ -153,6 +165,10 @@ export default {
 
   .template-container >>> a {
     color: ivory;
+  }
+
+  .template-container >>> .color-background {
+    color: rgb(142, 68, 173);
   }
   
   .bg-image {

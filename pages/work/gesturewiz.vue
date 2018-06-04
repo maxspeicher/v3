@@ -100,6 +100,7 @@
         </project-section>
         <prev-next prevTitle="360Any&shy;where" prevLink="360anywhere" nextTitle="Holo&shy;Builder" nextLink="holobuilder"></prev-next>
         <my-footer></my-footer>
+        <back-to-top></back-to-top>
       </div>
     </div>
   </div>
@@ -113,6 +114,7 @@ import Process from "~/components/Process.vue"
 import ProjectSectionText from "~/components/SectionText.vue"
 import ProjectSection from "~/components/Section.vue"
 import PrevNext from "~/components/PrevNext.vue"
+import BackToTop from "~/components/BackToTop.vue"
 
 export default {
   components: {
@@ -122,7 +124,8 @@ export default {
     Process,
     ProjectSectionText,
     ProjectSection,
-    PrevNext
+    PrevNext,
+    BackToTop
   },
   data: () => ({
     process: {
@@ -148,6 +151,10 @@ export default {
 
   .template-container >>> a {
     color: ivory;
+  }
+
+  .template-container >>> .color-background {
+    color: rgb(22, 160, 133);
   }
   
   .bg-image {

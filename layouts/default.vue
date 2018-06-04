@@ -159,7 +159,7 @@
     }
 
     .shadow {
-        box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 5px 0 #444;
     }
 
     .template-container-inner {

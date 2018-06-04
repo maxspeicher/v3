@@ -86,6 +86,7 @@
       <div class="mt4 tc tl-ns">
         <small>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, licensed under <a class="bw0" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"><i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i></a>.</small>
       </div>
+      <back-to-top></back-to-top>
     </div>
   </div>
 </template>
@@ -93,11 +94,13 @@
 <script>
 import MyHeader from "~/components/Header.vue"
 import MyFooter from "~/components/Footer.vue"
+import BackToTop from "~/components/BackToTop.vue"
 
 export default {
   components: {
     MyHeader,
-    MyFooter
+    MyFooter,
+    BackToTop
   }
 }
 </script>

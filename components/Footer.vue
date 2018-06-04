@@ -17,19 +17,8 @@
         <a class="dim" href="https://medium.com/@maxspeicher"><i class="fab fa-medium-m fa-2x mh2"></i></a>
       </div>
     </div>
-    <div class="back-to-top">
-      <a class="dim bw0" href="#top"><i class="fas fa-arrow-alt-circle-up fa-lg"></i></a>
-    </div>
   </footer>
 </template>
-
-<style>
-  .back-to-top {
-    bottom: 1em;
-    position: fixed;
-    right: 1em;
-  }
-</style>
 
 <script>
 import PrivacyPolicy from "~/components/PrivacyPolicy.vue"
