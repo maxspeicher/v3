@@ -4,7 +4,7 @@
     <div class="ma4 shadow" style="background-color: ivory; bottom: 0; left: 0; position: absolute; right: 0; top: 0;">
         <div class="center pa3 w-100">
         <div class="mb3 f1">
-            <i v-bind:class="icon"></i>
+            <i v-bind:class="icon" v-bind:data-fa-transform="transform"></i>
             <div class="fw7">{{ number }}</div>
         </div>
         <div class="fw4">
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  props: ["icon", "number", "description"]
+  props: ["icon", "transform", "number", "description"]
 }
 </script>
 

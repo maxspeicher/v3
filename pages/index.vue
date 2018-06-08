@@ -121,7 +121,7 @@
           </div>
           <div class="mb4">
             <div class="f4 fw4 lh-title mb3">
-              <a class="dim" href="">Search Interaction Optimization: A Human-Centered Design Approach</a>
+              <a class="dim" href="http://www.qucosa.de/fileadmin/data/qucosa/documents/20810/Dissertation_Archivierung_Speicher.pdf">Search Interaction Optimization: A Human-Centered Design Approach</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>
@@ -132,6 +132,18 @@
         <div class="f4 tl">
           <a class="dim fw4 important-link" href="http://dblp.org/pers/hd/s/Speicher:Maximilian">And some more</a>
           &nbsp;<i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+      <div class="mt5 mt6-ns">
+        <div class="f3 f2-ns fw6 mb4 mb5-ns tl">
+          A Couple of Articles.
+        </div>
+        <div class="tl mb4 mb5-ns">
+          <my-article title="What is Design Thinking?" link="https://medium.muz.li/what-is-design-thinking-4afa067cb986" publication="Muzli"></my-article>
+          <my-article title="On Design Thinking" link="https://medium.theuxblog.com/on-design-thinking-4a4980aebe8d" publication="The UX Blog"></my-article>
+          <my-article title="How usability impacts profit: The Conversion/Usability Framework" link="https://uxdesign.cc/the-conversion-usability-framework-3e2068edebbc" publication="UX Collective"></my-article>
+          <my-article title="What Do Highly Successful Start-ups Have in Common?" link="https://www.startups.co/articles/what-do-highly-successful-start-ups-have-in-common" publication="Startups.co"></my-article>
+          <my-article title="How to Data Analytics (in a Start-up)" link="https://medium.com/startupsco/how-to-data-analytics-in-a-start-up-f801d0ccf5d2" publication="Startups.co"></my-article>
         </div>
       </div>
       <my-footer></my-footer>
@@ -147,6 +159,7 @@ import MyHeader from "~/components/Header.vue"
 import MyFooter from "~/components/Footer.vue"
 import Box from "~/components/Box.vue"
 import BackToTop from "~/components/BackToTop.vue"
+import MyArticle from "~/components/Article.vue"
 
 export default {
   asyncData(context) {
@@ -157,7 +170,8 @@ export default {
     MyHeader,
     MyFooter,
     Box,
-    BackToTop
+    BackToTop,
+    MyArticle
   },
   data: () => ({
     isMoreDisplayed: false

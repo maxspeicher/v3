@@ -1,6 +1,6 @@
 (function(window, document, $) {
 
-    let nerdModeOn = false;
+    let ninetiesModeOn = false;
 
     const $css = $(`<style type="text/css" id="nerd-css">
       body, .template-container {
@@ -18,22 +18,22 @@
       }
     </style>`);
 
-    window.toggleNerdMode = function() {
-        if (!nerdModeOn) {
+    window.toggle90sMode = function() {
+        if (!ninetiesModeOn) {
             $("head").append($css);
         } else {
             $css.remove();
         }
 
-        nerdModeOn = !nerdModeOn;
+        ninetiesModeOn = !ninetiesModeOn;
     };
 
     console.log(`
-        /*******************************/
-        /**                           **/
-        /**  window.toggleNerdMode()  **/
-        /**                           **/
-        /*******************************/
+        /******************************/
+        /**                          **/
+        /**  window.toggle90sMode()  **/
+        /**                          **/
+        /******************************/
     `)
 
 })(window, document, jQuery);

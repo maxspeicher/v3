@@ -30,7 +30,7 @@ export default {
   methods: {
     strikeMeDownWithAllYourHatred(e) {
       e.preventDefault();
-      window.toggleNerdMode();
+      window.toggle90sMode();
     }
   }
 }

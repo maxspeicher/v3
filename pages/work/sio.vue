@@ -100,7 +100,7 @@
           the 2015 ACM Conference on Human Factos in Computing Systems.
         </project-section-text>
         <project-section>
-          <kpi icon="fas fa-arrow-up" number="+7.6%" description="overall usability after redesign"></kpi>
+          <kpi icon="fas fa-arrow-up" transform="rotate-45" number="+7.6%" description="overall usability after redesign"></kpi>
           <kpi icon="fas fa-trophy" number="1" description="Best Paper Honorable Mention Award"></kpi>
         </project-section>
         <project-section>
