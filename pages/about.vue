@@ -31,7 +31,7 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             Currently, I'm a post-doctoral research fellow.
             The research projects I lead at the University of Michigan School of Information focus on
-            natural user interfaces &amp; <span class="fw5">UX design</span>, with an emphasis on
+            natural user interfaces and <span class="fw5">UX design</span>, with an emphasis on
             <span class="fw5">AR/VR</span> and <span class="fw5">usability</span>.
             In particular, we develop new methods for physical and digital prototyping to support the design
             process for AR/VR experiences.
@@ -72,7 +72,7 @@
             In my opinion, one of my biggest strengths is probably that I'm a quick learner, which has helped
             me a lot in my career so far.<br /><br />
 
-            Apart from everything above, I'm also a passionate <span class="fw5">Ringtennis</span> player.
+            Apart from everything above, I'm also a <span class="fw5">Ringtennis</span> enthusiast.
             I've won five German Championships and two World Team Championships and was the men's captain of
             the Germany Ringtennis National Team from 2010 till 2018.
 

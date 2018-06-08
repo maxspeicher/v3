@@ -22,11 +22,11 @@
           <span class="fw4 small-caps">competitive analysis</span> (including Skype on HoloLens, 
           Sketchboard.io, and Chalk by Vuforia), we found a number of unresolved challenges, the most
           important of which were:
-          <ul>
+          <ol>
             <li>360° video and AR had not been combined before.</li>
             <li>Users are often not aware of where others are looking in a 360° video.</li>
             <li>Users are often looking into different directions.</li>
-          </ul>
+          </ol>
         </project-section-text>
         <project-section>
           <img src="~/assets/img/360anywhere/360anywhere-mockups.png" />
