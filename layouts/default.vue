@@ -19,9 +19,14 @@
     // $background-transparent: rgba(0, 0, 128, .33);
     // $foreground:             ivory;
 
+    :root {
+        --background-color: ivory;
+        --foreground-color: #111111;
+    }
+
     body {
-        background-color: $background;
-        color: $foreground;
+        background-color: var(--background-color);
+        color: var(--foreground-color);
         font-family: Montserrat, sans-serif;
         font-weight: 300;
     }
