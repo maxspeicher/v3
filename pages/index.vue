@@ -8,9 +8,12 @@
           who does augmented reality, UX design, &amp; usability.
           <a href="#" v-if="!isMoreDisplayed" v-on:click="displayMore">More ...</a>
           <span v-if="isMoreDisplayed">
-            Currently, I'm working on new physical &amp; digital methods for designers to create &amp; test
+            Currently, I'm a UX Manager at C&amp;A&mdash;one of Europe's biggest fashion retailers.
+            I mainly work on optimizing their online shops through quantitative and qualitative research
+            as well as UX concepting and A/B testing.
+            <!-- Currently, I'm working on new physical &amp; digital methods for designers to create &amp; test
             better AR/VR experiences.
-            At the University of Michigan School of Information, we are reinventing UX design itself.
+            At the University of Michigan School of Information, we are reinventing UX design itself. -->
           </span>
         </div>
         <div class="f5 f4-ns fw3 mt5">

@@ -7,6 +7,10 @@
 <style lang="scss">
     @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:200,300,400,500,600|Pacifico');
     
+    // $background:             #f9f8eb;
+    // $background-transparent: rgba(255, 118, 87, .33);
+    // $foreground:             #ff7657;
+
     $background:             ivory;
     $background-transparent: rgba(17, 17, 17, .33);
     $foreground:             #111111;

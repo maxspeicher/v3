@@ -4,10 +4,14 @@
       <my-header></my-header>
       <div class="f4 f3-ns fw4 lh-title mt4 tl">
         <div class="mb3">
-          I'm Max, currently a post-doctoral fellow at the University of Michigan working on 
+          I'm Max, currently a UX Manager at C&amp;A working on 
+          <span class="fw5">UX design</span>,
+          <span class="fw5">e-commerce</span>, and 
+          <span class="fw5">A/B testing</span> topics.
+          <!-- I'm Max, currently a post-doctoral fellow at the University of Michigan working on 
           <span class="fw5">augmented reality</span>,
           <span class="fw5">UX design</span>, and 
-          <span class="fw5">usability</span> topics.
+          <span class="fw5">usability</span> topics. -->
           I'm passionate about research, designing and developing interactive systems and digital products,
           and working with cutting-edge technologies.
         </div>
@@ -29,13 +33,13 @@
           Academia.
         </div>
         <div class="fl w-100 w-two-thirds-m w-75-l">
-            Currently, I'm a post-doctoral research fellow.
-            The research projects I lead at the University of Michigan School of Information focus on
+            From 2017 till 2018, I've been a post-doctoral research fellow.
+            The research projects I lead at the University of Michigan School of Information focused on
             natural user interfaces and <span class="fw5">UX design</span>, with an emphasis on
             <span class="fw5">AR/VR</span> and <span class="fw5">usability</span>.
-            In particular, we develop new methods for physical and digital prototyping to support the design
+            In particular, we developed new methods for physical and digital prototyping to support the design
             process for AR/VR experiences.
-            I also assist with teaching <span class="fw5">interaction design</span> and have introduced
+            I also assisted with teaching <span class="fw5">interaction design</span> and introduced
             <span class="fw5">Kanban</span> for our research projects.
             <br /><br />
             I earned my Ph.D. from Chemnitz University of Technology in 2016 and my M.Sc. from ETH Zurich
@@ -47,14 +51,18 @@
           Industry.
         </div>
         <div class="fl w-100 w-two-thirds-m w-75-l">
-            For two years, I've helped grow HoloBuilder, an AR/VR startup now specializing in solutions for
+            Currently, I'm a UX Manager.
+            At C&amp;A, I'm responsible for all qualitative and quantitative
+            <span class="fw5">user research</span> related to their online shops, including,
+            <span class="fw5">UX concepting</span>, new <span class="fw5">personas</span>, and
+            <span class="fw5">A/B testing</span>.<br /><br />
+            Prior to that, For two years, I've helped grow HoloBuilder, an AR/VR startup now specializing in solutions for
             the construction industry.
             As their VP of Customer &amp; Data Analytics &amp; Optimization, I acted as the internal product
             manager responsible for company-wide data analytics.
-            I was also significantly involved in <span class="fw5">user research</span> and
-            <span class="fw5">UX design</span>, e.g., as feature owner and designer of core platform
-            features.<br /><br />
-            Prior to that, I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH,
+            I was also significantly involved in user research and UX design, e.g., as feature owner and
+            designer of core platform features.<br /><br />
+            I completed an industrial Ph.D. program in the R&amp;D department of Unister GmbH,
             where I developed a new human-centered methodology for more automatic
             <span class="fw5">usability</span> evaluation and optimization of search engines that is still
             effective.<br /><br />
