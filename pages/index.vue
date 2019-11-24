@@ -9,8 +9,8 @@
           <a href="#" v-if="!isMoreDisplayed" v-on:click="displayMore">More ...</a>
           <span v-if="isMoreDisplayed">
             Currently, I'm a UX Manager at C&amp;A&mdash;one of Europe's biggest fashion retailers.
-            I mainly work on optimizing their online shops through quantitative and qualitative research
-            as well as UX concepting and A/B testing.
+            I mainly work on optimizing their online shops through quantitative and qualitative research,
+            as well as UX design and A/B testing.
             <!-- Currently, I'm working on new physical &amp; digital methods for designers to create &amp; test
             better AR/VR experiences.
             At the University of Michigan School of Information, we are reinventing UX design itself. -->
@@ -57,24 +57,33 @@
                 <i class="fas fa-certificate"></i>
                 <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">NEW</span>
               </span>
-              <a class="dim" href="/pdf/360anywhere.pdf">360Anywhere: Mobile Ad-hoc Collaboration in Any Environment using 360 Video and Augmented Reality</a>
+              <a class="dim" href="/pdf/what-is-mr.pdf">What is Mixed Reality?</a>
             </div>
             <div class="lh-copy">
-              <span class="fw4">M. Speicher</span>, J. Cao, A. Yu, H. Zhang, M. Nebeling
-              &bull; <span class="fw4">EICS '18</span> &bull; #AR
+              <span class="fw4">M. Speicher</span>, B.D. Hall, M. Nebeling
+              &bull; <span class="fw4">CHI '19</span>&nbsp;<i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i> &bull; #AR
             </div>
           </div>
           <div class="mb4">
-            <div class="f4 fw4 lh-title mb3">
+            <div class="relative f4 fw4 lh-title mb3">
               <span class="dn db-ns fa-layers fa-fw" style="position: absolute; transform: translateX(-105%) translateY(15%)">
                 <i class="fas fa-certificate"></i>
                 <span class="fa-layers-text fa-inverse" data-fa-transform="shrink-11.5 rotate--30">NEW</span>
               </span>
+              <a class="dim" href="/pdf/the-trouble.pdf">The Trouble with Augmented Reality/Virtual Reality Authoring Tools</a>
+            </div>
+            <div class="lh-copy">
+              M. Nebeling, <span class="fw4">M. Speicher</span>
+              &bull; <span class="fw4">ISMAR '18 Adjunct</span> &bull; #AR #UXDesign
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="f4 fw4 lh-title mb3">
               <a class="dim" href="/pdf/xd-ar.pdf">XD-AR: Challenges and Opportunities in Cross-Device Augmented Reality Application Development</a>
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, B.D. Hall, A. Yu, B. Zhang, H. Zhang, J. Nebeling, M. Nebeling
-              &bull; <span class="fw4">EICS '18</span> &bull; #AR
+              &bull; <span class="fw4">EICS '18</span>&nbsp;<i class="gold fas fa-trophy" title="Best Paper Award"></i> &bull; #AR
             </div>
           </div>
           <div class="mb4">
@@ -92,7 +101,16 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
-              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="silver fas fa-trophy" title="Best Paper Honorable Mention Award"></i> &bull; #UXdesign #usability
+              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i> &bull; #UXdesign #usability
+            </div>
+          </div>
+          <div class="mb4">
+            <div class="relative f4 fw4 lh-title mb3">
+              <a class="dim" href="/pdf/360anywhere.pdf">360Anywhere: Mobile Ad-hoc Collaboration in Any Environment using 360 Video and Augmented Reality</a>
+            </div>
+            <div class="lh-copy">
+              <span class="fw4">M. Speicher</span>, J. Cao, A. Yu, H. Zhang, M. Nebeling
+              &bull; <span class="fw4">EICS '18</span> &bull; #AR
             </div>
           </div>
           <div class="mb4">
@@ -142,6 +160,7 @@
           A Couple of Articles.
         </div>
         <div class="tl mb4 mb5-ns">
+          <my-article title="What is augmented reality, anyway?" link="http://theconversation.com/what-is-augmented-reality-anyway-99827" publication="The Conversation"></my-article>
           <my-article title="What is Design Thinking?" link="https://medium.muz.li/what-is-design-thinking-4afa067cb986" publication="Muzli"></my-article>
           <my-article title="On Design Thinking" link="https://medium.theuxblog.com/on-design-thinking-4a4980aebe8d" publication="The UX Blog"></my-article>
           <my-article title="How usability impacts profit: The Conversion/Usability Framework" link="https://uxdesign.cc/the-conversion-usability-framework-3e2068edebbc" publication="UX Collective"></my-article>

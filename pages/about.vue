@@ -5,8 +5,8 @@
       <div class="f4 f3-ns fw4 lh-title mt4 tl">
         <div class="mb3">
           I'm Max, currently a UX Manager at C&amp;A working on 
-          <span class="fw5">UX design</span>,
-          <span class="fw5">e-commerce</span>, and 
+          <span class="fw5">user research</span>,
+          <span class="fw5">UX design</span>, and 
           <span class="fw5">A/B testing</span> topics.
           <!-- I'm Max, currently a post-doctoral fellow at the University of Michigan working on 
           <span class="fw5">augmented reality</span>,
@@ -53,10 +53,10 @@
         <div class="fl w-100 w-two-thirds-m w-75-l">
             Currently, I'm a UX Manager.
             At C&amp;A, I'm responsible for all qualitative and quantitative
-            <span class="fw5">user research</span> related to their online shops, including,
+            <span class="fw5">user research</span> related to their online shops, including
             <span class="fw5">UX concepting</span>, new <span class="fw5">personas</span>, and
             <span class="fw5">A/B testing</span>.<br /><br />
-            Prior to that, For two years, I've helped grow HoloBuilder, an AR/VR startup now specializing in solutions for
+            Prior to that, for two years, I've helped grow HoloBuilder, an AR/VR startup now specializing in solutions for
             the construction industry.
             As their VP of Customer &amp; Data Analytics &amp; Optimization, I acted as the internal product
             manager responsible for company-wide data analytics.

@@ -25,7 +25,7 @@ module.exports = {
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.3.1.min.js' },
-      { src: 'https://use.fontawesome.com/releases/v5.0.13/js/all.js' },
+      { src: 'https://use.fontawesome.com/releases/v5.11.2/js/all.js' },
       { src: path + 'js/90s-mode.js' }
     ],
   },
