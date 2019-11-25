@@ -61,7 +61,8 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, B.D. Hall, M. Nebeling
-              &bull; <span class="fw4">CHI '19</span>&nbsp;<i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i> &bull; #AR
+              &bull; <span class="fw4">CHI '19</span> &bull; #AR &bull;
+              <i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i>
             </div>
           </div>
           <div class="mb4">
@@ -83,7 +84,8 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, B.D. Hall, A. Yu, B. Zhang, H. Zhang, J. Nebeling, M. Nebeling
-              &bull; <span class="fw4">EICS '18</span>&nbsp;<i class="gold fas fa-trophy" title="Best Paper Award"></i> &bull; #AR
+              &bull; <span class="fw4">EICS '18</span> &bull; #AR &bull;
+              <i class="gold fas fa-trophy" title="Best Paper Award"></i>
             </div>
           </div>
           <div class="mb4">
@@ -101,7 +103,8 @@
             </div>
             <div class="lh-copy">
               <span class="fw4">M. Speicher</span>, A. Both, M. Gaedke
-              &bull; <span class="fw4">CHI '15</span>&nbsp;<i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i> &bull; #UXdesign #usability
+              &bull; <span class="fw4">CHI '15</span> &bull; #UXdesign #usability &bull;
+              <i class="silver fas fa-award" title="Best Paper Honorable Mention Award"></i>
             </div>
           </div>
           <div class="mb4">
