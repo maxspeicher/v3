@@ -4,6 +4,8 @@ The third version of MaxSpeicher.com, created in 2017.
 
 This portfolio has also been featured on Bestfolios. :arrow_right: https://www.bestfolios.com/portfolio/maximilianspeicher
 
+![Screenshot of V3 of my personal website](screencapture-maxspeicher-2020-10-18-14_01_25.png)
+
 ## Build Setup
 
 ``` bash
