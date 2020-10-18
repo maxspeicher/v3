@@ -1,6 +1,8 @@
 # portfolio
 
-> Portfolio of Maximilian Speicher.
+The third version of MaxSpeicher.com, created in 2017.
+
+This portfolio has also been featured on Bestfolios. :arrow_right: https://www.bestfolios.com/portfolio/maximilianspeicher
 
 ## Build Setup
 
