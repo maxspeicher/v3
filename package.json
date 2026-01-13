@@ -17,13 +17,13 @@
   },
   "dependencies": {
     "babel-core": "^6.26.3",
-    "image-webpack-loader": "^4.2.0",
-    "nuxt": "^1.0.0"
+    "image-webpack-loader": "^8.1.0",
+    "nuxt": "^4.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
     "cross-env": "^5.1.4",
-    "eslint": "^4.15.0",
+    "eslint": "^9.39.1",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
     "eslint-plugin-vue": "^4.0.0",
